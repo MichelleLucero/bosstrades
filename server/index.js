@@ -2,13 +2,16 @@
 require('dotenv').config();
 
 const express = require('express');
-
+const cors = require('cors');
 // postgres database
 const db = require('./db');
-
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcryptjs');
 const app = express();
+const auth = require('./middleware/auth');
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 
 // Routes
@@ -59,6 +62,7 @@ app.get('/api/search/:search', async (req, res) => {
   }
 });
 
+// Get person transactions
 app.get('/api/search/person/:personid', async (req, res) => {
   try {
     const { personid } = req.params;
@@ -80,6 +84,7 @@ app.get('/api/search/person/:personid', async (req, res) => {
   }
 });
 
+// Get company transactions
 app.get('/api/search/company/:ticker', async (req, res) => {
   try {
     const { ticker } = req.params;
@@ -95,6 +100,53 @@ app.get('/api/search/company/:ticker', async (req, res) => {
     res
       .status(200)
       .json({ company: ticker_name.rows[0], trans: ticker_trans.rows });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+app.post('/api/member/', async (req, res) => {
+  const { first_name, last_name, email, password } = req.body;
+
+  if (first_name === '') res.status(400).send('First name is empty');
+  if (last_name === '') res.status(400).send('Last name is empty');
+  if (email === '') res.status(400).send('Email is empty');
+  if (password === '') res.status(400).send('Password is empty');
+  if (password.length < 6) res.status(400).send('Password is too short');
+
+  try {
+    const user = await db.query(
+      `SELECT * FROM member where email = '${email}'`
+    );
+    if (user.rows.length > 0)
+      return res.status(400).json({ msg: 'user already exists' });
+
+    const salt = await bcrypt.genSalt(10);
+    const pwd = await bcrypt.hash(password, salt);
+
+    const result = await db.query(
+      'INSERT INTO member(member_uid, first_name, last_name, email, password) VALUES(uuid_generate_v4(), $1, $2, $3, $4 ) returning *',
+      [first_name, last_name, email, pwd]
+    );
+
+    const payload = {
+      user: {
+        id: result.rows[0].member_uid,
+      },
+    };
+
+    jwt.sign(
+      payload,
+      'secret', //todo put this in .env file
+      { expiresIn: 3600000 },
+      (err, token) => {
+        if (err) {
+          throw err;
+        }
+        res.json({ token });
+      }
+    );
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');

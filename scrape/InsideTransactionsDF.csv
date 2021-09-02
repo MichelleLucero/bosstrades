@@ -1,0 +1,843 @@
+placeholder,Title,Date of Trans,Deemed Execution Day,Transaction Code,empty,Amount,Adq or Disp,Price,Shares Owned after Trans,Direct or Indirect Ownershipt,Nature of Ind Ownershipt,position,name_person,ticker
+0,Common Stock,07/07/2021,,J(1),,9095,A,$1.3,133319,D,,,PORCELAIN MICHAEL ,AIRI 
+0,Common Stock,07/07/2021,,F,,924(1),D,$37.94,39666,D,, Chief Accounting Officer & VP,BROWN GARRARD ,AVID 
+0,Class A Common Stock,07/06/2021,,P,,29999,A,$33.77(2),3636147,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+1,Class A Common Stock,07/06/2021,,P,,1333,A,$33.77(2),3637480,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+2,Class A Common Stock,07/06/2021,,P,,24344,A,$34.29(3),3661824,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+3,Class A Common Stock,07/06/2021,,P,,1082,A,$34.29(3),3662906,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+4,Class A Common Stock,07/07/2021,,P,,24604,A,$33.7(4),3687510,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+5,Class A Common Stock,07/07/2021,,P,,736,A,$33.7(4),3688246,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+6,Class A Common Stock,07/07/2021,,P,,12842,A,$34.15(5),3701088,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+7,Class A Common Stock,07/07/2021,,P,,384,A,$34.15(5),3701472,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+8,Class A Common Stock,07/08/2021,,P,,1515,A,$33.91(6),3702987,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+9,Class A Common Stock,07/08/2021,,P,,47,A,$33.91(6),3703034,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+10,Class A Common Stock,07/08/2021,,P,,24003,A,$34.47(7),3727037,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+11,Class A Common Stock,07/08/2021,,P,,751,A,$34.47(7),3727788,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+0,Common Stock,07/06/2021,,M(1),,10000,A,$6.55,31604,D,, Chief Financial Officer,Cohen Chad M ,ADPT 
+1,Common Stock,07/06/2021,,S(1),,10000,D,$38.83(2),21604,D,, Chief Financial Officer,Cohen Chad M ,ADPT 
+2,Common Stock,07/07/2021,,M(1),,10000,A,$6.55,31604,D,, Chief Financial Officer,Cohen Chad M ,ADPT 
+3,Common Stock,07/07/2021,,S(1),,6486,D,$38.17(3),25118,D,, Chief Financial Officer,Cohen Chad M ,ADPT 
+4,Common Stock,07/07/2021,,S(1),,3514,D,$39.2(4),21604,D,, Chief Financial Officer,Cohen Chad M ,ADPT 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,"BAIN CAPITAL VENTURE INVESTORS, LLC ",BTRS 
+0,"Common Stock, par value $0.01 per share",07/06/2021,,P,,"5,882,353(1)",A,$16.0225,5882353,D(2),,,JAB Indulgence B.V. ,DNUT 
+1,"Common Stock, par value $0.01 per share",,,,,,,,62142733,I,JAB Indulgence B.V.(3),,JAB Indulgence B.V. ,DNUT 
+0,Class C Capital Stock,07/06/2021,,S,,100,D,"$2,568.43(1)",19145101,D,,,Brin Sergey ,GOOG 
+1,Class C Capital Stock,07/06/2021,,S,,100,D,"$2,572.25(2)",19145001,D,,,Brin Sergey ,GOOG 
+2,Class C Capital Stock,07/06/2021,,S,,655,D,"$2,573.7727(3)",19144346,D,,,Brin Sergey ,GOOG 
+3,Class C Capital Stock,07/06/2021,,S,,200,D,"$2,574.86(4)",19144146,D,,,Brin Sergey ,GOOG 
+4,Class C Capital Stock,07/06/2021,,S,,200,D,"$2,575.73(5)",19143946,D,,,Brin Sergey ,GOOG 
+5,Class C Capital Stock,07/06/2021,,S,,300,D,"$2,576.96(6)",19143646,D,,,Brin Sergey ,GOOG 
+6,Class C Capital Stock,07/06/2021,,S,,1050,D,"$2,578.101(7)",19142596,D,,,Brin Sergey ,GOOG 
+7,Class C Capital Stock,07/06/2021,,S,,600,D,"$2,579.195(8)",19141996,D,,,Brin Sergey ,GOOG 
+8,Class C Capital Stock,07/06/2021,,S,,994,D,"$2,580.28(9)",19141002,D,,,Brin Sergey ,GOOG 
+9,Class C Capital Stock,07/06/2021,,S,,1288,D,"$2,581.3717(10)",19139714,D,,,Brin Sergey ,GOOG 
+10,Class C Capital Stock,07/06/2021,,S,,803,D,"$2,582.7395(11)",19138911,D,,,Brin Sergey ,GOOG 
+11,Class C Capital Stock,07/06/2021,,S,,800,D,"$2,584.1613(12)",19138111,D,,,Brin Sergey ,GOOG 
+12,Class C Capital Stock,07/06/2021,,S,,915,D,"$2,585.3444(13)",19137196,D,,,Brin Sergey ,GOOG 
+13,Class C Capital Stock,07/06/2021,,S,,300,D,"$2,586.4367(14)",19136896,D,,,Brin Sergey ,GOOG 
+14,Class C Capital Stock,07/06/2021,,S,,400,D,"$2,587.46(15)",19136496,D,,,Brin Sergey ,GOOG 
+15,Class C Capital Stock,07/06/2021,,S,,1733,D,"$2,588.5207(16)",19134763,D,,,Brin Sergey ,GOOG 
+16,Class C Capital Stock,07/06/2021,,S,,430,D,"$2,589.5896(17)",19134333,D,,,Brin Sergey ,GOOG 
+17,Class C Capital Stock,07/06/2021,,S,,500,D,"$2,590.4933(18)",19133833,D,,,Brin Sergey ,GOOG 
+18,Class C Capital Stock,07/06/2021,,S,,600,D,"$2,591.5628(19)",19133233,D,,,Brin Sergey ,GOOG 
+19,Class C Capital Stock,07/06/2021,,S,,600,D,"$2,592.5783(20)",19132633,D,,,Brin Sergey ,GOOG 
+20,Class C Capital Stock,07/06/2021,,S,,600,D,"$2,593.6583(21)",19132033,D,,,Brin Sergey ,GOOG 
+21,Class C Capital Stock,07/06/2021,,S,,700,D,"$2,594.5743(22)",19131333,D,,,Brin Sergey ,GOOG 
+22,Class C Capital Stock,07/06/2021,,S,,21,D,"$2,595.31(23)",19131312,D,,,Brin Sergey ,GOOG 
+0,Common Stock,07/07/2021,,M,,10000,A,$11.33,"122,278(1)",D,," CFO, EVP & Treasurer",PETERS WILLIAM J ,AMPH 
+1,Common Stock,07/07/2021,,S(2),,10000,D,$20.3739(2),112278,D,," CFO, EVP & Treasurer",PETERS WILLIAM J ,AMPH 
+0,Class A Common Stock,07/06/2021,,C,,"826,451(3)(4)",A,$0.00,826451,I,See Footnotes(1)(2),,Anderson Steven P. ,SFIX 
+1,Class A Common Stock,07/06/2021,,J(1),,"826,451(3)(4)",D,$0.00,0,I,See Footnotes(1)(2),,Anderson Steven P. ,SFIX 
+0,Class A Common Stock,07/06/2021,,S(1),,12256,D,$400.143(2),27191,D,, Chief Revenue Officer,Azus Ryan ,ZM 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,"BAIN CAPITAL VENTURE INVESTORS, LLC ",BTRS 
+0,Common Stock,07/06/2021,,M,,5833,A,$42.22,67973,D,, Vice Chairman & CFO,Shigemura Dean Y ,BOH 
+1,Common Stock,07/06/2021,,S,,"5,833(1)",D,$83.5,62140,D,, Vice Chairman & CFO,Shigemura Dean Y ,BOH 
+2,Common Stock,,,,,,,,837,I,IRA Account, Vice Chairman & CFO,Shigemura Dean Y ,BOH 
+0,Common Stock,07/06/2021,,S(1),,6000.0,D,$7.54,74819,D,," CFO, SECRETARY AND TREASURER",BARNES JAMES A ,WRAP 
+1,Common Stock,,,,,,,,1742741,I,By family trust," CFO, SECRETARY AND TREASURER",BARNES JAMES A ,WRAP 
+2,Common Stock,,,,,,,,358959,I,"By Sunrise Capital, Inc."," CFO, SECRETARY AND TREASURER",BARNES JAMES A ,WRAP 
+0,Common Stock,07/06/2021,,F(1),,4160,D,$4.07,267059,D,, President and CEO,BARR WAYNE JR ,HCHC 
+0,Class A Common Stock,07/06/2021,,C,,"826,451(3)(4)",A,$0.00,826451,I,See Footnotes(1)(2),,BASELINE VENTURES 2009 LLC ,SFIX 
+1,Class A Common Stock,07/06/2021,,J(1),,"826,451(3)(4)",D,$0.00,0,I,See Footnotes(1)(2),,BASELINE VENTURES 2009 LLC ,SFIX 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,"BAIN CAPITAL VENTURE INVESTORS, LLC ",BTRS 
+0,Common Stock,07/06/2021,,M,,11461,A,$1.64,280771,D,, CEO,Rice Michael ,BLFS 
+1,Common Stock,07/06/2021,,S(1),,11461,D,$46.28(2),269310,D,, CEO,Rice Michael ,BLFS 
+2,Common Stock,07/08/2021,,M,,11464,A,$1.64,280774,D,, CEO,Rice Michael ,BLFS 
+3,Common Stock,07/08/2021,,S(1),,11464,D,$46.15(3),269310,D,, CEO,Rice Michael ,BLFS 
+0,Common Stock,07/06/2021,,X,,285714.0,A,$7,1797638,I,See footnote(1), Executive Chairman,BRONFMAN EDGAR JR ,FUBO 
+1,Common Stock,,,,,,,,45680,D,, Executive Chairman,BRONFMAN EDGAR JR ,FUBO 
+2,Common Stock,,,,,,,,3431642,I,See footnote(2), Executive Chairman,BRONFMAN EDGAR JR ,FUBO 
+3,Common Stock,,,,,,,,797724,I,See footnote(3), Executive Chairman,BRONFMAN EDGAR JR ,FUBO 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,Harris Matthew C ,BTRS 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,"BAIN CAPITAL VENTURE INVESTORS, LLC ",BTRS 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,"BAIN CAPITAL VENTURE INVESTORS, LLC ",BTRS 
+0,Class A Common Stock,07/06/2021,,C,,"826,451(3)(4)",A,$0.00,826451,I,See Footnotes(1)(2),,BASELINE VENTURES 2009 LLC ,SFIX 
+1,Class A Common Stock,07/06/2021,,J(1),,"826,451(3)(4)",D,$0.00,0,I,See Footnotes(1)(2),,BASELINE VENTURES 2009 LLC ,SFIX 
+0,Common Stock,07/01/2021,,A,,1322,A,$0,114521,D,,,Camp James S. ,BCML 
+0,Common Stock,07/01/2021,,A,,1322.0,A,$0,77243,D,, Chairman of the Board,Kendall Lloyd W. Jr. ,BCML 
+1,Common Stock,,,,,,,,10000,I,By 401(lK) Plan, Chairman of the Board,Kendall Lloyd W. Jr. ,BCML 
+0,Common Stock,07/01/2021,,A,,1322.0,A,$0,52049,D,,,Spatz David M. ,BCML 
+1,Common Stock,,,,,,,,1500,I,Held by Spouse,,Spatz David M. ,BCML 
+0,Common Stock,07/01/2021,,A,,1322,A,$0,42700,D,,,Chaudhary Harpreet S. ,BCML 
+0,Ordinary Shares,07/06/2021,,S(1),,44300.0,D,$25.4187(2),6722631,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+1,Ordinary Shares,07/07/2021,,S(1),,40700.0,D,$25.1412(3),6343333,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+2,Ordinary Shares,,,,,,,,545597,I,See Footnote(4), Chief Executive Officer,OYLER JOHN ,BGNE 
+3,Ordinary Shares,,,,,,,,7727927,I,See Footnote(5), Chief Executive Officer,OYLER JOHN ,BGNE 
+4,Ordinary Shares,,,,,,,,29439115,I,See Footnote(6), Chief Executive Officer,OYLER JOHN ,BGNE 
+5,Ordinary Shares,,,,,,,,10000000,I,See Footnote(7), Chief Executive Officer,OYLER JOHN ,BGNE 
+6,Ordinary Shares,,,,,,,,102188,I,See Footnote(8), Chief Executive Officer,OYLER JOHN ,BGNE 
+7,American Depositary Shares,07/06/2021,,S(1),,900.0,D,$321.7223(9),12175,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+8,American Depositary Shares,07/06/2021,,S(1),,3062.0,D,$322.926(10),9113,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+9,American Depositary Shares,07/06/2021,,S(1),,2023.0,D,$323.6334(11),7090,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+10,American Depositary Shares,07/06/2021,,S(1),,885.0,D,$325.0105(12),6205,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+11,American Depositary Shares,07/06/2021,,S(1),,3015.0,D,$326.2763(13),3190,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+12,American Depositary Shares,07/06/2021,,S(1),,2290.0,D,$327.2212(14),900,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+13,American Depositary Shares,07/06/2021,,S(1),,700.0,D,$328.0657(15),200,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+14,American Depositary Shares,07/06/2021,,S(1),,100.0,D,$329.41,100,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+15,American Depositary Shares,07/06/2021,,S(1),,100.0,D,$332.26,0,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+16,American Depositary Shares,07/07/2021,,S(1),,900.0,D,$310.3777(16),25146,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+17,American Depositary Shares,07/07/2021,,S(1),,2400.0,D,$311.3731(17),22746,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+18,American Depositary Shares,07/07/2021,,S(1),,3675.0,D,$312.1288(18),19071,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+19,American Depositary Shares,07/07/2021,,S(1),,3200.0,D,$313.3831(19),15871,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+20,American Depositary Shares,07/07/2021,,S(1),,3100.0,D,$314.5032(20),12771,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+21,American Depositary Shares,07/07/2021,,S(1),,3137.0,D,$315.1846(21),9634,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+22,American Depositary Shares,07/07/2021,,S(1),,2400.0,D,$316.4327(22),7234,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+23,American Depositary Shares,07/07/2021,,S(1),,1804.0,D,$317.3833(23),5430,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+24,American Depositary Shares,07/07/2021,,S(1),,1673.0,D,$318.5296(24),3757,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+25,American Depositary Shares,07/07/2021,,S(1),,1100.0,D,$319.5891(25),2657,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+26,American Depositary Shares,07/07/2021,,S(1),,900.0,D,$320.5222(26),1757,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+27,American Depositary Shares,07/07/2021,,S(1),,300.0,D,$321.4033(27),1457,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+28,American Depositary Shares,07/07/2021,,S(1),,300.0,D,$322.6298(28),1157,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+29,American Depositary Shares,07/07/2021,,S(1),,857.0,D,$323.7109(29),300,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+0,Ordinary Shares,07/08/2021,,S(1),,51300.0,D,$24.244(2),6085580,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+1,Ordinary Shares,,,,,,,,545597,I,See Footnote(3), Chief Executive Officer,OYLER JOHN ,BGNE 
+2,Ordinary Shares,,,,,,,,7727927,I,See Footnote(4), Chief Executive Officer,OYLER JOHN ,BGNE 
+3,Ordinary Shares,,,,,,,,29439115,I,See Footnote(5), Chief Executive Officer,OYLER JOHN ,BGNE 
+4,Ordinary Shares,,,,,,,,10000000,I,See Footnote(6), Chief Executive Officer,OYLER JOHN ,BGNE 
+5,Ordinary Shares,,,,,,,,102188,I,See Footnote(7), Chief Executive Officer,OYLER JOHN ,BGNE 
+6,American Depositary Shares,07/07/2021,,S(1),,300.0,D,$325.2333(8),0,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+7,American Depositary Shares,07/08/2021,,S(1),,400.0,D,$310.6362(9),15481,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+8,American Depositary Shares,07/08/2021,,S(1),,600.0,D,$312.3067(10),14881,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+9,American Depositary Shares,07/08/2021,,S(1),,1600.0,D,$313.2269(11),13281,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+10,American Depositary Shares,07/08/2021,,S(1),,1309.0,D,$314.5272(12),11972,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+11,American Depositary Shares,07/08/2021,,S(1),,700.0,D,$315.6414(13),11272,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+12,American Depositary Shares,07/08/2021,,S(1),,945.0,D,$316.787(14),10327,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+13,American Depositary Shares,07/08/2021,,S(1),,300.0,D,$318.0333(15),10027,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+14,American Depositary Shares,07/08/2021,,S(1),,1100.0,D,$319.4308(16),8927,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+15,American Depositary Shares,07/08/2021,,S(1),,4524.0,D,$320.2014(17),4403,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+16,American Depositary Shares,07/08/2021,,S(1),,2500.0,D,$321.1493(18),1903,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+17,American Depositary Shares,07/08/2021,,S(1),,900.0,D,$322.0818(19),1003,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+18,American Depositary Shares,07/08/2021,,S(1),,200.0,D,$322.915(20),803,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+19,American Depositary Shares,07/08/2021,,S(1),,800.0,D,$324.3822(21),3,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+20,American Depositary Shares,07/08/2021,,S(1),,3.0,D,$324.98,0,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+0,Common Stock,07/06/2021,,S(1),,5000.0,D,$10.9108(2),3619933,D,, CEO and Chairman,Boal Steven R. ,QUOT 
+1,Common Stock,,,,,,,,912348,I,By Family Trust(3), CEO and Chairman,Boal Steven R. ,QUOT 
+2,Common Stock,,,,,,,,3237,I,By Child Trust(4), CEO and Chairman,Boal Steven R. ,QUOT 
+3,Common Stock,,,,,,,,3237,I,By Child Trust(5), CEO and Chairman,Boal Steven R. ,QUOT 
+4,Common Stock,,,,,,,,3237,I,By Child Trust(6), CEO and Chairman,Boal Steven R. ,QUOT 
+0,Common Stock,07/06/2021,,S(1),,4743,D,$385.62(2),"314,940(3)",D,, Chief Financial Officer,Boelte Craig E. ,PAYC 
+1,Common Stock,07/06/2021,,S(1),,4186,D,$386.42(4),"310,754(3)",D,, Chief Financial Officer,Boelte Craig E. ,PAYC 
+2,Common Stock,07/06/2021,,S(1),,5483,D,$387.51(5),"305,271(3)",D,, Chief Financial Officer,Boelte Craig E. ,PAYC 
+3,Common Stock,07/06/2021,,S(1),,3188,D,$388.6(6),"302,083(3)",D,, Chief Financial Officer,Boelte Craig E. ,PAYC 
+4,Common Stock,07/06/2021,,S(1),,1700,D,$389.41(7),"300,383(3)",D,, Chief Financial Officer,Boelte Craig E. ,PAYC 
+5,Common Stock,07/06/2021,,S(1),,700,D,$390.15(8),"299,683(3)",D,, Chief Financial Officer,Boelte Craig E. ,PAYC 
+0,Common Stock,07/06/2021,,M,,8250,A,$2.1,30131,D,, Chief Technical Officer,Breinlinger Keith ,BLI 
+1,Common Stock,07/06/2021,,S(1),,4750,D,$45.1467(2),25381,D,, Chief Technical Officer,Breinlinger Keith ,BLI 
+2,Common Stock,07/06/2021,,S(1),,2909,D,$46.8859(3),22472,D,, Chief Technical Officer,Breinlinger Keith ,BLI 
+3,Common Stock,07/06/2021,,S(1),,591,D,$47.4412(4),21881,D,, Chief Technical Officer,Breinlinger Keith ,BLI 
+0,Common Stock,07/06/2021,,S(1),,4906.0,D,$46.7826(2),1014747,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+1,Common Stock,07/06/2021,,S(1),,1349.0,D,$47.1668(3),1013398,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+2,Common Stock,07/06/2021,,S(1),,96.0,D,$48.8341(4),1013302,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+3,Common Stock,07/07/2021,,S(1),,1166.0,D,$46.0784(5),1012136,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+4,Common Stock,07/07/2021,,S(1),,1842.0,D,$47.2801(6),1010294,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+5,Common Stock,07/07/2021,,S(1),,1506.0,D,$47.7626(7),1008788,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+6,Common Stock,07/06/2021,,S(8),,12947.0,D,$46.8364(9),995841,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+7,Common Stock,07/06/2021,,S(8),,800.0,D,$47.3298(10),995041,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+8,Common Stock,07/06/2021,,S(8),,200.0,D,$49.205(11),994841,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+9,Common Stock,,,,,,,,25260,I,See Footnote(12), Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+0,MIND Common Stock,07/08/2021,,P,,20000,A,$1.95(1),61930,D,, Co-CEO and CFO,CAPPS ROBERT P ,MIND 
+0,Common Stock,03/05/2021,,L,,18(1),A,$111.01,16370,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+1,Common Stock,04/05/2021,,J,,62(2),A,$116.435,16432,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+2,Common Stock,04/05/2021,,L,,17(1),A,$116.435,16449,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+3,Common Stock,05/05/2021,,L,,25(1),A,$118.074,16474,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+4,Common Stock,06/07/2021,,L,,17(1),A,$117.56,16491,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+5,Common Stock,07/06/2021,,J,,66(2),A,$120.055,16557,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+6,Common Stock,07/06/2021,,L,,17(1),A,$120.055,"16,574(3)(4)",D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+7,Common Stock,,,,,,,,387(5),I,401k Plan, Executive VP & General Counsel,Moriarty James F ,CPK 
+0,Common Stock,07/06/2021,,P,,202.0,A,$24.5561,3116,D,,,Loughery Robert G ,CZNC 
+1,Common Stock,,,,,,,,2,I,By Spouse,,Loughery Robert G ,CZNC 
+0,Common Stock,07/06/2021,,P,,180(1),A,$73.7299,"38,298.4548(2)",D,,,FISHER ROBERT D ,CHCO 
+0,Common Stock,07/06/2021,,P,,150(1),A,$73.7299,"55,407.0334(2)",D,,,HYLTON TRACY W II ,CHCO 
+1,Common Stock,,,,,,,,1586,I,"as cust for daughter, Traci Jo Hylton UWVUGMA",,HYLTON TRACY W II ,CHCO 
+2,Common Stock,,,,,,,,3800,I,"by daughter, Traci Jo Hylton",,HYLTON TRACY W II ,CHCO 
+3,Common Stock,,,,,,,,4500,I,as cust for Morgan T. Hylton UWVUGMA,,HYLTON TRACY W II ,CHCO 
+0,Common Stock,07/01/2021,,A(1),,476.0,A,$20.98,"12,886(2)",D,,,HENDERSON JOHN T ,CYTK 
+1,Common Stock,07/07/2021,,A(3),,63.0,A,$19.77,"12,949(2)",D,,,HENDERSON JOHN T ,CYTK 
+2,Common Stock,,,,,,,,83,I,by Spouse,,HENDERSON JOHN T ,CYTK 
+0,Ordinary Shares,07/07/2021,,S,,"4,135(1)",D,$189.5,83293.48,D,, Executive Vice President,Camuti Paul A ,TT 
+0,Common Stock,07/06/2021,,A(1),,308,A,$18.48,144464,D,,,GREYSON JAY KEITH ,PRTS 
+0,"Common Stock, par value $0.01 per share",07/06/2021,,P,,40000,A,$6.3522(2),10675100,I,See Footnote(1),,"Chatham Asset Management, LLC ",RRD 
+1,"Common Stock, par value $0.01 per share",07/07/2021,,P,,130000,A,$5.993(3),10805100,I,See Footnote(1),,"Chatham Asset Management, LLC ",RRD 
+2,"Common Stock, par value $0.01 per share",07/08/2021,,P,,15000,A,$5.6868(4),10820100,I,See Footnote(1),,"Chatham Asset Management, LLC ",RRD 
+0,Common Stock,07/01/2021,,A,,1322,A,$0,42700,D,,,Chaudhary Harpreet S. ,BCML 
+0,Class A Common Stock,07/06/2021,,C,,64535,A,$0,64535,I,"By Christ Revocable Trust dated May 8, 2015(1)",,Christ George J ,ALTR 
+1,Class A Common Stock,07/06/2021,,S,,63635,D,$70.911(2),900,I,"By Christ Revocable Trust dated May 8, 2015(1)",,Christ George J ,ALTR 
+2,Class A Common Stock,07/06/2021,,S,,900,D,$71.56(3),0,I,"By Christ Revocable Trust dated May 8, 2015(1)",,Christ George J ,ALTR 
+0,Common Stock,07/06/2021,,A,,60580.0,A,(1),65759,D,, Executive Vice President,SANDRING REBECCA M ,CORR 
+1,Common Stock,,,,,,,,0(2),I,By daughter, Executive Vice President,SANDRING REBECCA M ,CORR 
+2,Depositary Shares representing Series A Preferred Stock,07/06/2021,,A,,8937.0,A,(1),8937,D,, Executive Vice President,SANDRING REBECCA M ,CORR 
+0,Ordinary Shares(1),07/06/2021,,A,V,100,A,$137.122(2),35993,D,, Chief Financial Officer,Cordova Ashley ,NVCR 
+0,Ordinary Shares,07/06/2021,,M,,271,A,$9.82,271,D,, Chief Business Officer,Crockett Nigel ,BCYC 
+1,Ordinary Shares,07/06/2021,,S(1),,271,D,$32,0,D,, Chief Business Officer,Crockett Nigel ,BCYC 
+0,Common Stock,07/06/2021,,S(1),,400,D,$62.68,243447,D,, President and CEO,Daly Stephen G ,MTSI 
+0,Ordinary Shares(1),07/06/2021,,A,V,118,A,$137.122(2),8302,D,, Chief Executive Officer,Danziger Asaf ,NVCR 
+0,Common Stock,07/06/2021,,M,,30000,A,$9.09,46000,D,, Chief Operating Officer & EVP,Weissman James B ,DRNA 
+1,Common Stock,07/06/2021,,S(1)(2),,"30,000(1)",D,$39.09,16000,D,, Chief Operating Officer & EVP,Weissman James B ,DRNA 
+0,$.0001 par value common stock,07/07/2021,,M,,6610.0,A,$0.00,6610,D,," President, Global Mobile",Dodd James Michael ,VSAT 
+1,$.0001 par value common stock,07/07/2021,,F(1),,1610.0,D,$48.12,5000,D,," President, Global Mobile",Dodd James Michael ,VSAT 
+2,$.0001 par value common stock,,,,,,,,313(2),I,By 401(k)," President, Global Mobile",Dodd James Michael ,VSAT 
+0,Common Stock,06/30/2021,,A,,33.326,A,$123.39,8510.6426,D,, VP and Pres. of Perf. Material,Dysard Jeffrey Michael ,CCMP 
+0,Common Stock,06/30/2021,,A(1)(6),,4358390,A,$17,4358390,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+1,Common Stock,06/30/2021,,A(1)(6),,53374,A,$17,53374,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+2,Common Stock,07/06/2021,,C(5),,52648162,A,(5),57006552,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+3,Common Stock,07/06/2021,,C(5),,6096644,A,(1),6150018,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+4,Common Stock,07/06/2021,,C(5),,3822490,A,(1),60829042,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+5,Common Stock,07/06/2021,,C(5),,106081,A,(1),6256099,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+0,Common Stock,07/06/2021,,C,,824691.0,A,(1),1919993,D,, President,Feiersrtein Matthew David ,EVCM 
+1,Common Stock,07/06/2021,,A,,68750.0,A(2),$0,1988743,D,, President,Feiersrtein Matthew David ,EVCM 
+2,Common Stock,,,,,,,,150000,I,By Family Trust, President,Feiersrtein Matthew David ,EVCM 
+0,COMMON,,,,,,,,209868,D,,,Briggs Andrew J ,FMAO 
+1,COMMON,06/18/2021,,S,,1100.0,D,$22.02(1),208768,D,,,Briggs Andrew J ,FMAO 
+2,COMMON,06/21/2021,,S,,1700.0,D,$22.01(1),207068,D,,,Briggs Andrew J ,FMAO 
+3,COMMON,06/22/2021,,S,,2500.0,D,$21.7(1),204568,D,,,Briggs Andrew J ,FMAO 
+4,COMMON,06/24/2021,,S,,2000.0,D,$22.04(1),202568,D,,,Briggs Andrew J ,FMAO 
+5,COMMON,06/25/2021,,S,,3001.0,D,$21.75(1),199567,D,,,Briggs Andrew J ,FMAO 
+6,COMMON,06/28/2021,,S,,4999.0,D,$22.01(1),"194,568(2)",D,,,Briggs Andrew J ,FMAO 
+7,COMMON,,,,,,,,173850,I,By Family Trust,,Briggs Andrew J ,FMAO 
+8,COMMON,,,,,,,,283650,I,By Family Trust,,Briggs Andrew J ,FMAO 
+9,COMMON,,,,,,,,42311,I,By ESOP,,Briggs Andrew J ,FMAO 
+10,COMMON,,,,,,,,232,I,By ESOP (spouse),,Briggs Andrew J ,FMAO 
+11,COMMON,,,,,,,,89,I,By ESOP (mother/POA),,Briggs Andrew J ,FMAO 
+0,Class A Common Stock,07/06/2021,,S(1),,250,D,$356.41,8140,D,, VP and General Counsel,Newstead Jennifer ,FB 
+0,Class A Common Stock,07/06/2021,,C(1),,14423,A,$0(1),313944,D,," Chief Architect, Exec. Chair",Bergman Artur ,FSLY 
+1,Class A Common Stock,07/06/2021,,S(2),,1818,D,$56.02(3),312126,D,," Chief Architect, Exec. Chair",Bergman Artur ,FSLY 
+2,Class A Common Stock,07/06/2021,,S(2),,11205,D,$56.95(4),300921,D,," Chief Architect, Exec. Chair",Bergman Artur ,FSLY 
+3,Class A Common Stock,07/06/2021,,S(2),,1400,D,$57.83(5),299521,D,," Chief Architect, Exec. Chair",Bergman Artur ,FSLY 
+0,Common Stock,07/07/2021,,A,,"1,126(1)",A,$0,31178,D,,,Finnie Cindy H. ,FNWB 
+0,Common Stock,07/06/2021,,A,,89041.0,A,(1),573978,D,, Chief Executive Officer,Firer Oleg ,NETE 
+1,Common Stock,,,,,,,,67312,I,By: Star Equities LLC, Chief Executive Officer,Firer Oleg ,NETE 
+0,Common Stock,07/07/2021,,A,,"1,126(1)",A,$0,30872.27,D,,,Tonina Norman J. Jr. ,FNWB 
+0,Common Stock - Voting,,,,,,,,51392.17,D,, President Global Consumer  /  Americas & Asia,Foley Brendan M ,MKC 
+1,Common Stock - Non Voting,,,,,,,,542.825,D,, President Global Consumer  /  Americas & Asia,Foley Brendan M ,MKC 
+0,Common Stock,06/28/2021,,A,,"62,528(1)",A,$0,62528,D,, Chief Medical Officer,Foody Joanne M. ,ESPR 
+0,Common Stock,07/07/2021,,S,,6000,D,$3.0783(1),79918,D,, COO of Subsidiary,Severino Paul Jean ,FORD 
+0,Common Stock,07/06/2021,,P,,6250,A,$16,6250,D,,,Fountain Nathan B ,ABOS 
+0,"Class A Common Stock, par value $0.0001 per share",07/06/2021,,P,,"516,280(1)",A,$10,516280,D(2),,,G3 VRM Holdings LLC ,GGGV 
+0,Class A Common Stock,07/06/2021,,S(1),,3184,D,$46.206(2),79492,D,, CAO/Operational CFO,Unruh Jess ,GDOT 
+1,Class A Common Stock,07/06/2021,,S(1),,133,D,$46.9645(3),79359,D,, CAO/Operational CFO,Unruh Jess ,GDOT 
+0,Common Stock,07/06/2021,,A(1),,308,A,$18.48,144464,D,,,GREYSON JAY KEITH ,PRTS 
+0,Common Stock,07/02/2021,,A,,26936.0,A,(1),1287820,D,, CTO,Bonnette Jonathan Eric ,grwc 
+1,Common Stock,07/02/2021,,A,,20202.0,A,(2),1308022,D,, CTO,Bonnette Jonathan Eric ,grwc 
+2,Common Stock,,,,,,,,1857824,I,Footnote(3), CTO,Bonnette Jonathan Eric ,grwc 
+0,Common Stock,,,,,,,,"3,602(1)",D,,,Garza Santos David F ,KSU 
+0,Ordinary Shares,07/06/2021,,F,,92(1),D,$1.27,366972,D,, President and COO,Gelone Steven P. ,NBRV 
+0,Common Stock,07/06/2021,,F(1),,77315,D,$6.85,440781,D,, Chief Financial Officer,Smull L Lynn ,GEVO 
+0,Common Stock,07/06/2021,,F(1),,48932,D,$6.85,308951,D,, VP-General Counsel & Secretary,Williams Geoffrey Thomas Jr. ,GEVO 
+0,Common Stock,07/06/2021,,S(1),,400.0,D,$369.1694(2),54599,I,by Trust(3),,Giancarlo Charles H ,ANET 
+1,Common Stock,07/06/2021,,S(1),,366.0,D,$371.0424(4),54233,I,by Trust(3),,Giancarlo Charles H ,ANET 
+2,Common Stock,07/06/2021,,S(1),,434.0,D,$371.9713(5),53799,I,by Trust(3),,Giancarlo Charles H ,ANET 
+3,Common Stock,07/06/2021,,S(1),,400.0,D,$372.9425(6),53399,I,by Trust(3),,Giancarlo Charles H ,ANET 
+4,Common Stock,07/06/2021,,S(1),,65.0,D,$373.8,53334,I,by Trust(3),,Giancarlo Charles H ,ANET 
+5,Common Stock,,,,,,,,11755,D,,,Giancarlo Charles H ,ANET 
+0,Common Stock,07/07/2021,,M,,25000.0,A,$3.81,72960,D,, Chief Executive Officer,Lindberg Eric J. Jr. ,GO 
+1,Common Stock,07/07/2021,,S(1),,25000.0,D,$34.45(2),47960,D,, Chief Executive Officer,Lindberg Eric J. Jr. ,GO 
+2,Common Stock,,,,,,,,2126670,I,By Lindberg Revocable Trust(3), Chief Executive Officer,Lindberg Eric J. Jr. ,GO 
+3,Common Stock,,,,,,,,701500,I,By Lindberg Irrevocable Trust(4), Chief Executive Officer,Lindberg Eric J. Jr. ,GO 
+4,Common Stock,,,,,,,,460,I,By child, Chief Executive Officer,Lindberg Eric J. Jr. ,GO 
+5,Common Stock,,,,,,,,460,I,By spouse, Chief Executive Officer,Lindberg Eric J. Jr. ,GO 
+0,"Common Shares, Par value $0.10 per share",07/06/2021,,S,,35,D,$235.46(1),867,I,By LLC, Chief Executive Officer,Mininberg Julien ,HELE 
+1,"Common Shares, Par value $0.10 per share",07/06/2021,,S,,3483,D,$235.46(1),85842,I,By Trust, Chief Executive Officer,Mininberg Julien ,HELE 
+2,"Common Shares, Par value $0.10 per share",07/06/2021,,S,,7,D,$236.09(2),860,I,By LLC, Chief Executive Officer,Mininberg Julien ,HELE 
+3,"Common Shares, Par value $0.10 per share",07/06/2021,,S,,740,D,$236.09(2),85102,I,By Trust, Chief Executive Officer,Mininberg Julien ,HELE 
+4,"Common Shares, Par value $0.10 per share",07/07/2021,,S,,2,D,$235.35(3),858,I,By LLC, Chief Executive Officer,Mininberg Julien ,HELE 
+5,"Common Shares, Par value $0.10 per share",07/07/2021,,S,,198,D,$235.35(3),84904,I,By Trust, Chief Executive Officer,Mininberg Julien ,HELE 
+6,"Common Shares, Par value $0.10 per share",07/07/2021,,S,,1,D,$236.58,857,I,By LLC, Chief Executive Officer,Mininberg Julien ,HELE 
+7,"Common Shares, Par value $0.10 per share",07/07/2021,,S,,99,D,$236.58,84805,I,By Trust, Chief Executive Officer,Mininberg Julien ,HELE 
+0,Class A Common Stock,07/06/2021,,C,,15625,A,$0,15625,D,,,Hammonds Kimberly ,ZM 
+1,Class A Common Stock,07/06/2021,,S(1),,15625,D,$400.0507(2),0,D,,,Hammonds Kimberly ,ZM 
+0,Common Stock,07/06/2021,,S(1),,375,D,$91.53,"25,333(2)",D,, EVP & Chief Commercial Officer,Harris Erik ,RARE 
+0,Common Stock,07/06/2021,,M(1),,10000.0,A,$0.99,1619597,D,, President,Hoge Stephen ,MRNA 
+1,Common Stock,07/06/2021,,S(1),,10000.0,D,$229.62,1609597,D,, President,Hoge Stephen ,MRNA 
+2,Common Stock,,,,,,,,4116,I,"By Valhalla, LLC", President,Hoge Stephen ,MRNA 
+3,Common Stock,,,,,,,,151933,I,By Trust(2), President,Hoge Stephen ,MRNA 
+0,Common Stock,07/06/2021,,M,,10750,A,$15.84,123879,D,, Chief Operating Officer,Horstmeier Paul ,HCAT 
+1,Common Stock,07/06/2021,,S(1),,4058,D,$56.6919(2),119821,D,, Chief Operating Officer,Horstmeier Paul ,HCAT 
+2,Common Stock,07/06/2021,,S(1),,6692,D,$57.1949(3),113129,D,, Chief Operating Officer,Horstmeier Paul ,HCAT 
+0,Class A Common Stock,07/06/2021,,J(1),,20567,A,(1),8391675,I,See footnote(2)(3),,"Insight Holdings Group, LLC ",ETWO 
+1,Class A Common Stock,07/06/2021,,J(1),,4385,A,(1),1789373,I,See footnote(2)(4),,"Insight Holdings Group, LLC ",ETWO 
+2,Class A Common Stock,07/06/2021,,J(1),,12796,A,(1),5220857,I,See footnote(2)(5),,"Insight Holdings Group, LLC ",ETWO 
+3,Class A Common Stock,07/06/2021,,J(1),,11766,A,(1),4800596,I,See footnote(2)(6),,"Insight Holdings Group, LLC ",ETWO 
+0,Class A Common Stock,07/06/2021,,J(1),,20567,A,(1),8391675,I,See footnote(2)(3),,"Insight Venture Associates IX, Ltd. ",ETWO 
+1,Class A Common Stock,07/06/2021,,J(1),,4385,A,(1),1789373,I,See footnote(2)(4),,"Insight Venture Associates IX, Ltd. ",ETWO 
+0,Class A common stock,07/06/2021,,S,,"19,300(1)",D,$64.25(2),6968211,D,, Chairman,Peterffy Thomas ,IBKR 
+1,Class A common stock,07/06/2021,,S,,700(1),D,$64.85(3),6967511,D,, Chairman,Peterffy Thomas ,IBKR 
+2,Class A common stock,07/07/2021,,S,,"19,700(1)",D,$64.31(4),6947811,D,, Chairman,Peterffy Thomas ,IBKR 
+3,Class A common stock,07/07/2021,,S,,300(1),D,$64.81,6947511,D,, Chairman,Peterffy Thomas ,IBKR 
+0,Class A Common,07/07/2021,,S,,7294,D,$59.77(1),8642,D,," EVP, Chief Technology Officer",Matin Aref ,JWA/JWB 
+1,Class A Common,07/08/2021,,S,,6040,D,$58.9(2),2602,D,," EVP, Chief Technology Officer",Matin Aref ,JWA/JWB 
+0,Common Stock,,,,,,,,"3,602(1)",D,,,Garza Santos David F ,KSU 
+0,Class A Common Stock,07/06/2021,,C(1),,2937242.0,A,(1),2937242,I,See Footnotes(3)(4)(6),,KKR Group Partnership L.P. ,LAUR 
+1,Class A Common Stock,07/06/2021,,C(1),,62758.0,A,(1),62758,I,See Footnotes(3)(5)(6),,KKR Group Partnership L.P. ,LAUR 
+2,Class A Common Stock,,,,,,,,13480107,I,See Footnotes(4)(6),,KKR Group Partnership L.P. ,LAUR 
+3,Class A Common Stock,,,,,,,,288021,I,See Footnotes(5)(6),,KKR Group Partnership L.P. ,LAUR 
+0,Class A Common Stock,07/06/2021,,C(1),,2937242.0,A,(1),2937242,I,See Footnotes(3)(4)(6),,KKR 2006 Fund ,LAUR 
+1,Class A Common Stock,07/06/2021,,C(1),,62758.0,A,(1),62758,I,See Footnotes(3)(5)(6),,KKR 2006 Fund ,LAUR 
+2,Class A Common Stock,,,,,,,,13480107,I,See Footnotes(4)(6),,KKR 2006 Fund ,LAUR 
+3,Class A Common Stock,,,,,,,,288021,I,See Footnotes(5)(6),,KKR 2006 Fund ,LAUR 
+0,Common Stock,07/06/2021,,A,,710(1),A,$0,4057,D,,,Olson Jon A ,KLIC 
+0,Common Stock,07/06/2021,,A,,710(1),A,$0,81043,D,,,Yeo Mui Sung ,KLIC 
+0,Class A Common Stock,07/06/2021,,C,,43690.0,A,$0.00(1),43690,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+1,Class A Common Stock,07/06/2021,,S(3),,43690.0,D,$69.69(4),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+2,Class A Common Stock,07/06/2021,,C,,28057.0,A,$0.00(1),28057,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+3,Class A Common Stock,07/06/2021,,S(3),,28057.0,D,$70.23(5),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+4,Class A Common Stock,07/06/2021,,C,,2940.0,A,$0.00(1),2940,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+5,Class A Common Stock,07/06/2021,,S(3),,2940.0,D,$71.53(6),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+6,Class A Common Stock,07/06/2021,,C,,1800.0,A,$0.00(1),1800,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+7,Class A Common Stock,07/06/2021,,S(3),,1800.0,D,$72.19(7),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+8,Class A Common Stock,07/07/2021,,C,,36289.0,A,$0.00(1),36289,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+9,Class A Common Stock,07/07/2021,,S(3),,36289.0,D,$65.89(8),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+10,Class A Common Stock,07/07/2021,,C,,11074.0,A,$0.00(1),11074,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+11,Class A Common Stock,07/07/2021,,S(3),,11074.0,D,$67.01(9),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+12,Class A Common Stock,07/07/2021,,C,,24309.0,A,$0.00(1),24309,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+13,Class A Common Stock,07/07/2021,,S(3),,24309.0,D,$67.83(10),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+14,Class A Common Stock,07/07/2021,,C,,7757.0,A,$0.00(1),7757,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+15,Class A Common Stock,07/07/2021,,S(3),,7757.0,D,$68.76(11),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+16,Class A Common Stock,07/07/2021,,C,,3154.0,A,$0.00(1),3154,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+17,Class A Common Stock,07/07/2021,,S(3),,3154.0,D,$69.88(12),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+18,Class A Common Stock,07/08/2021,,C,,2899.0,A,$0.00(1),2899,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+19,Class A Common Stock,07/08/2021,,S(3),,2899.0,D,$63.18(13),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+20,Class A Common Stock,07/08/2021,,C,,47887.0,A,$0.00(1),47887,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+21,Class A Common Stock,07/08/2021,,S(3),,47887.0,D,$64.07(14),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+22,Class A Common Stock,07/08/2021,,C,,54273.0,A,$0.00(1),54273,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+23,Class A Common Stock,07/08/2021,,S(3),,54273.0,D,$64.87(15),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+24,Class A Common Stock,,,,,,,,123000,D,, CO-CHIEF EXECUTIVE OFFICER,Karanikolas Michael ,RVLV 
+0,Common Stock,07/07/2021,,A(1),,63,A,$19.77,"6,459(2)",D,,,Kaye Edward M. MD ,CYTK 
+0,Common Stock,07/01/2021,,A,,1322.0,A,$0,77243,D,, Chairman of the Board,Kendall Lloyd W. Jr. ,BCML 
+1,Common Stock,,,,,,,,10000,I,By 401(lK) Plan, Chairman of the Board,Kendall Lloyd W. Jr. ,BCML 
+0,Common Stock,06/01/2021,,A(1),,15276.0,A,$17.21,486605,D,, Executive Vice President,Kim Howard Hwasaeng ,MCBS 
+1,Common Stock,,,,,,,,100000,I,By Spouse, Executive Vice President,Kim Howard Hwasaeng ,MCBS 
+0,Common Stock,06/25/2021,,G(1),V,100000.0,D,(2),0,I,By Spouse, Executive Vice President,Kim Howard Hwasaeng ,MCBS 
+1,Common Stock,,,,,,,,486605,D,, Executive Vice President,Kim Howard Hwasaeng ,MCBS 
+0,Common Stock,07/06/2021,,C,,6122557,A,(1),"6,122,557(2)",I,See footnotes(2)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+1,Common Stock,07/06/2021,,P,,1759332,A,$16,"7,881,889(2)",I,See footnotes(2)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+2,Common Stock,07/06/2021,,C,,1184366,A,(1),"1,184,336(3)",I,See footnotes(3)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+3,Common Stock,07/06/2021,,P,,115668,A,$16,"1,300,034(3)",I,See footnotes(3)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+4,Common Stock,07/06/2021,,C,,588850,A,(1),"588,850(4)",I,See footnotes(4)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+0,Common Stock,07/07/2021,07/07/2021,S,,60000,D,(1),"203,809,547(2)",D,, CEO & CFO,Thompson Kimberly Kraig ,KBLB 
+0,"Common Stock, par value $0.01 per share",07/06/2021,,P,,"294,118(1)",A,$16.0225,1363835,I,Held by Platin Capital S.a r.l.(2), Chairman of the Board,Goudet Olivier ,DNUT 
+1,"Common Stock, par value $0.01 per share",,,,,,,,529149,D,, Chairman of the Board,Goudet Olivier ,DNUT 
+2,"Common Stock, par value $0.01 per share",,,,,,,,20902,I,Held by Spouse, Chairman of the Board,Goudet Olivier ,DNUT 
+0,Common Stock,07/08/2021,,M,,4500,A,$3.22,6100,D,," COO, CFO",Kung Winston ,PMVP 
+1,Common Stock,07/08/2021,,S(1),,4500,D,$33.75,1600,D,," COO, CFO",Kung Winston ,PMVP 
+0,Common Stock,07/06/2021,,X,,285714.0,A,$7,1797638,I,See footnote(1),,LEFF DANIEL V ,FUBO 
+1,Common Stock,,,,,,,,3431642,I,See footnote(2),,LEFF DANIEL V ,FUBO 
+2,Common Stock,,,,,,,,797724,I,See footnote(3),,LEFF DANIEL V ,FUBO 
+0,Diodes Incorporated Common Stock,07/06/2021,,S(1),,1833.0,D,$80.1239(2),385538,D,, President & CEO,LU KEH SHEW ,DIOD 
+1,Diodes Incorporated Common Stock - Performance Stock Units,,,,,,,,220519,D,, President & CEO,LU KEH SHEW ,DIOD 
+2,Diodes Incorporated Common Stock,,,,,,,,"46,150(3)",I,Custodial, President & CEO,LU KEH SHEW ,DIOD 
+3,Diodes Incorporated Common Stock,,,,,,,,421671,I,Lu Grandchildren's Trust, President & CEO,LU KEH SHEW ,DIOD 
+4,Diodes Incorporated Common Stock,,,,,,,,55655,I,The Lu Family Foundation, President & CEO,LU KEH SHEW ,DIOD 
+5,Diodes Incorporated Common Stock,,,,,,,,4700,I,The Lu 2017 Irrevocable Trust, President & CEO,LU KEH SHEW ,DIOD 
+0,Common Stock,02/08/2021,,M(1),,7500,A,$0,271282,D,,,MIR GASPER III ,LUB 
+1,Common Stock,07/06/2021,,M(1),,7500,A,$0,278782,D,,,MIR GASPER III ,LUB 
+0,Common Stock,02/08/2021,,M(1),,7500,A,$0,312345,D,,,MCKINNEY JOE C ,LUB 
+1,Common Stock,07/06/2021,,M(1),,7500,A,$0,319845,D,,,MCKINNEY JOE C ,LUB 
+0,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,6994.0,A,$12.61,2710024,I(3),"By: Luxor Capital Partners, LP",,"Luxor Capital Group, LP ",FTCV 
+1,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,251.0,A,$12.0368,2710275,I(3),"By: Luxor Capital Partners, LP",,"Luxor Capital Group, LP ",FTCV 
+2,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,992.0,A,$12.61,613847,I(4),"By: Luxor Wavefront, LP",,"Luxor Capital Group, LP ",FTCV 
+3,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,768.0,A,$12.0368,614615,I(4),"By: Luxor Wavefront, LP",,"Luxor Capital Group, LP ",FTCV 
+4,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,53.0,A,$12.61,17145,I(6),"By: Luxor Capital Partners Long Offshore Master Fund, LP",,"Luxor Capital Group, LP ",FTCV 
+5,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,33596.0,A,$12.0368,50741,I(6),"By: Luxor Capital Partners Long Offshore Master Fund, LP",,"Luxor Capital Group, LP ",FTCV 
+6,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,161.0,A,$12.61,52369,I(7),"By: Luxor Capital Partners Long, LP",,"Luxor Capital Group, LP ",FTCV 
+7,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,4784.0,A,$12.0368,57153,I(7),"By: Luxor Capital Partners Long, LP",,"Luxor Capital Group, LP ",FTCV 
+8,"Class A Common Stock, par value $0.0001 per share(1)(2)",,,,,,,,1681684,I(5),"By: Luxor Capital Partners Offshore Master Fund, LP",,"Luxor Capital Group, LP ",FTCV 
+0,Tejon Ranch Co. Common Stock,07/08/2021,,A,,990,A,$15.21,37850,D,,,Leggio Anthony L. ,TRC 
+0,Ordinary Shares(1),07/06/2021,,A,V,154,A,$137.122(2),90199,D,, Chief Development Officer,Leonard Frank X ,NVCR 
+0,Common Stock,06/01/2021,,A(1),,1162,A,$17.21,164924,D,,,Lu Feiying ,MCBS 
+0,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,6994.0,A,$12.61,2710024,I(3),"By: Luxor Capital Partners, LP",,"Luxor Capital Group, LP ",FTCV 
+1,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,251.0,A,$12.0368,2710275,I(3),"By: Luxor Capital Partners, LP",,"Luxor Capital Group, LP ",FTCV 
+2,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,992.0,A,$12.61,613847,I(4),"By: Luxor Wavefront, LP",,"Luxor Capital Group, LP ",FTCV 
+3,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,768.0,A,$12.0368,614615,I(4),"By: Luxor Wavefront, LP",,"Luxor Capital Group, LP ",FTCV 
+4,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,53.0,A,$12.61,17145,I(6),"By: Luxor Capital Partners Long Offshore Master Fund, LP",,"Luxor Capital Group, LP ",FTCV 
+5,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,33596.0,A,$12.0368,50741,I(6),"By: Luxor Capital Partners Long Offshore Master Fund, LP",,"Luxor Capital Group, LP ",FTCV 
+6,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/06/2021,,P,,161.0,A,$12.61,52369,I(7),"By: Luxor Capital Partners Long, LP",,"Luxor Capital Group, LP ",FTCV 
+7,"Class A Common Stock, par value $0.0001 per share(1)(2)",07/07/2021,,P,,4784.0,A,$12.0368,57153,I(7),"By: Luxor Capital Partners Long, LP",,"Luxor Capital Group, LP ",FTCV 
+8,"Class A Common Stock, par value $0.0001 per share(1)(2)",,,,,,,,1681684,I(5),"By: Luxor Capital Partners Offshore Master Fund, LP",,"Luxor Capital Group, LP ",FTCV 
+0,Common Stock,02/08/2021,,M(1),,7500,A,$0,302188,D,,,MARKANTONIS FRANK ,LUB 
+1,Common Stock,07/06/2021,,M(1),,7500,A,$0,309688,D,,,MARKANTONIS FRANK ,LUB 
+0,Common Stock - Voting,,,,,,,,51392.17,D,, President Global Consumer  /  Americas & Asia,Foley Brendan M ,MKC 
+1,Common Stock - Non Voting,,,,,,,,542.825,D,, President Global Consumer  /  Americas & Asia,Foley Brendan M ,MKC 
+0,Common Stock,,,,,,,,"78,693(1)",D,,,MCDONNELL THOMAS A ,KSU 
+0,MIND Common Stock,07/08/2021,,P,,20000,A,$1.95(1),61930,D,, Co-CEO and CFO,CAPPS ROBERT P ,MIND 
+0,Common Stock,02/08/2021,,M(1),,7500,A,$0,271282,D,,,MIR GASPER III ,LUB 
+1,Common Stock,07/06/2021,,M(1),,7500,A,$0,278782,D,,,MIR GASPER III ,LUB 
+0,Common Stock,07/06/2021,,M(1),,7500,A,$0,20318,D,,,MORLOCK JOHN B ,LUB 
+0,Class A Common Stock,07/06/2021,,M,,18512.0,A,$0.07,133340,D,,,McMahon John Dennis ,SNOW 
+1,Class A Common Stock,07/06/2021,,S(1),,18512.0,D,$235.05,114828,D,,,McMahon John Dennis ,SNOW 
+2,Class A Common Stock,,,,,,,,125737,I,Trust(2),,McMahon John Dennis ,SNOW 
+3,Class A Common Stock,,,,,,,,151188,I,Trust(3),,McMahon John Dennis ,SNOW 
+0,Common Stock,06/01/2021,,A(1),,1162,A,$17.21,1078252,D,,,Leung Don ,MCBS 
+0,Common Stock,06/01/2021,,A(1),,1162.0,A,$17.21,642524,D,,,Patel Ajit A. ,MCBS 
+1,Common Stock,,,,,,,,49088,I,By Spouse,,Patel Ajit A. ,MCBS 
+0,Common Stock,06/01/2021,,A(1),,1162,A,$17.21,14924,D,,,Rhee Frank S. ,MCBS 
+0,Common Stock,06/01/2021,,A(1),,1162,A,$17.21,594808,D,,,Shim Sam Sang-Koo ,MCBS 
+0,Ordinary Shares,07/07/2021,,S(1),,7500.0,D,$54.569(2),1928577,I,By Rock Trustees Limited(3), Chief Executive Officer,Bauer Peter ,MIME 
+1,Ordinary Shares,,,,,,,,1351876,I,By Declaration of Trust of Peter Bauer(4), Chief Executive Officer,Bauer Peter ,MIME 
+2,Ordinary Shares,,,,,,,,9544,I,By The Bauer Irrevocable Trust - 2020(5), Chief Executive Officer,Bauer Peter ,MIME 
+3,Restricted Shares(6),,,,,,,,"2,250(7)",D,, Chief Executive Officer,Bauer Peter ,MIME 
+4,Restricted Shares(6),,,,,,,,"9,000(8)",D,, Chief Executive Officer,Bauer Peter ,MIME 
+0,Common Stock,07/06/2021,,M,,10000,A,$13.4,10000,D,,,Mnookin Allison ,BILL 
+1,Common Stock,07/06/2021,,S(1),,400,D,$180.65(2),9600,D,,,Mnookin Allison ,BILL 
+2,Common Stock,07/06/2021,,S(1),,300,D,$182.5233(3),9300,D,,,Mnookin Allison ,BILL 
+3,Common Stock,07/06/2021,,S(1),,1200,D,$183.7253(4),8100,D,,,Mnookin Allison ,BILL 
+4,Common Stock,07/06/2021,,S(1),,1601,D,$184.9227(5),6499,D,,,Mnookin Allison ,BILL 
+5,Common Stock,07/06/2021,,S(1),,2752,D,$185.8075(6),3747,D,,,Mnookin Allison ,BILL 
+6,Common Stock,07/06/2021,,S(1),,1600,D,$187.1438(7),2147,D,,,Mnookin Allison ,BILL 
+7,Common Stock,07/06/2021,,S(1),,1559,D,$188.1398(8),588,D,,,Mnookin Allison ,BILL 
+8,Common Stock,07/06/2021,,S(1),,588,D,$189.0002(9),0,D,,,Mnookin Allison ,BILL 
+0,Class A Common Stock,07/06/2021,,S(1),,3246.0,D,$359.19,42588,D,, Chief Revenue Officer,Pech Cedric ,MDB 
+1,Class A Common Stock,,,,,,,,103013,I,By KW Investments SRL(2), Chief Revenue Officer,Pech Cedric ,MDB 
+0,Common Stock,07/07/2021,,S,,"6,470(1)",D,$6.8134,190310,D,, Chief Accounting Officer,Moorehead Lewis W. ,QMCO 
+0,Class A Common Stock,07/06/2021,,P,,29999,A,$33.77(2),3636147,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+1,Class A Common Stock,07/06/2021,,P,,1333,A,$33.77(2),3637480,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+2,Class A Common Stock,07/06/2021,,P,,24344,A,$34.29(3),3661824,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+3,Class A Common Stock,07/06/2021,,P,,1082,A,$34.29(3),3662906,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+4,Class A Common Stock,07/07/2021,,P,,24604,A,$33.7(4),3687510,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+5,Class A Common Stock,07/07/2021,,P,,736,A,$33.7(4),3688246,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+6,Class A Common Stock,07/07/2021,,P,,12842,A,$34.15(5),3701088,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+7,Class A Common Stock,07/07/2021,,P,,384,A,$34.15(5),3701472,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+8,Class A Common Stock,07/08/2021,,P,,1515,A,$33.91(6),3702987,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+9,Class A Common Stock,07/08/2021,,P,,47,A,$33.91(6),3703034,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+10,Class A Common Stock,07/08/2021,,P,,24003,A,$34.47(7),3727037,I,"By Abdiel Qualified Master Fund, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+11,Class A Common Stock,07/08/2021,,P,,751,A,$34.47(7),3727788,I,"By Abdiel Capital, LP(1)",,"Abdiel Capital Management, LLC ",CRCT 
+0,Common Stock,03/05/2021,,L,,18(1),A,$111.01,16370,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+1,Common Stock,04/05/2021,,J,,62(2),A,$116.435,16432,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+2,Common Stock,04/05/2021,,L,,17(1),A,$116.435,16449,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+3,Common Stock,05/05/2021,,L,,25(1),A,$118.074,16474,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+4,Common Stock,06/07/2021,,L,,17(1),A,$117.56,16491,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+5,Common Stock,07/06/2021,,J,,66(2),A,$120.055,16557,D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+6,Common Stock,07/06/2021,,L,,17(1),A,$120.055,"16,574(3)(4)",D,, Executive VP & General Counsel,Moriarty James F ,CPK 
+7,Common Stock,,,,,,,,387(5),I,401k Plan, Executive VP & General Counsel,Moriarty James F ,CPK 
+0,Common Stock,07/06/2021,,S(1),,8091.0,D,$256.9643(2),18417678,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+1,Common Stock,07/06/2021,,S(1),,864.0,D,$258.1327(3),18416814,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+2,Common Stock,07/06/2021,,S(1),,200.0,D,$258.948(4),18416614,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+3,Common Stock,07/07/2021,,S(1),,740.0,D,$256.51(5),18415874,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+4,Common Stock,07/07/2021,,S(1),,1819.0,D,$257.3921(6),18414055,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+5,Common Stock,07/07/2021,,S(1),,5424.0,D,$258.5778(7),18408631,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+6,Common Stock,07/07/2021,,S(1),,1031.0,D,$259.2855(8),18407600,D,, Executive Chairman,Mansueto Joseph D ,MORN 
+7,Common Stock,,,,,,,,150000,I,ByTrust(9), Executive Chairman,Mansueto Joseph D ,MORN 
+0,Class A Common Stock,07/06/2021,,S(1),,75675.0,D,$21.2602(2),402678,D,, President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+1,Class A Common Stock,07/07/2021,,S(1),,68725.0,D,$21.3744(3),333953,D,, President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+2,Class A Common Stock,07/08/2021,,S(1),,19222.0,D,$21.0959(4),314731,D,, President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+3,Class A Common Stock,07/06/2021,,S(1),,16825.0,D,$21.2602(2),483175,I,By LLC(5), President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+4,Class A Common Stock,07/07/2021,,S(1),,15279.0,D,$21.3744(3),467896,I,By LLC(5), President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+5,Class A Common Stock,07/08/2021,,S(1),,4274.0,D,$21.0959(4),463622,I,By LLC(5), President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+6,Class B Common Stock,,,,,,,,527914,D,, President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+7,Class B Common Stock,,,,,,,,2822527,I,By LLC(5), President/Chief Legal Officer,Morton Erin Thomas ,SWCH 
+0,Ordinary Shares,07/06/2021,,F,,74(1),D,$1.27,41342,D,, Gen Counsel & Corp Secretary,Crotty Robert ,NBRV 
+0,Common Stock,07/06/2021,,A(1),,5000,A,(1),23782,D,,,Najarian Jon ,NETE 
+0,Common Stock,07/06/2021,,A(1),,5000,A,(1),23782,D,,,Najarian Jon ,NETE 
+0,Ordinary Shares(1),07/06/2021,,A,V,154,A,$137.122(2),90199,D,, Chief Development Officer,Leonard Frank X ,NVCR 
+0,Ordinary Shares,07/06/2021,,S(1),,44300.0,D,$25.4187(2),6722631,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+1,Ordinary Shares,07/07/2021,,S(1),,40700.0,D,$25.1412(3),6343333,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+2,Ordinary Shares,,,,,,,,545597,I,See Footnote(4), Chief Executive Officer,OYLER JOHN ,BGNE 
+3,Ordinary Shares,,,,,,,,7727927,I,See Footnote(5), Chief Executive Officer,OYLER JOHN ,BGNE 
+4,Ordinary Shares,,,,,,,,29439115,I,See Footnote(6), Chief Executive Officer,OYLER JOHN ,BGNE 
+5,Ordinary Shares,,,,,,,,10000000,I,See Footnote(7), Chief Executive Officer,OYLER JOHN ,BGNE 
+6,Ordinary Shares,,,,,,,,102188,I,See Footnote(8), Chief Executive Officer,OYLER JOHN ,BGNE 
+7,American Depositary Shares,07/06/2021,,S(1),,900.0,D,$321.7223(9),12175,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+8,American Depositary Shares,07/06/2021,,S(1),,3062.0,D,$322.926(10),9113,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+9,American Depositary Shares,07/06/2021,,S(1),,2023.0,D,$323.6334(11),7090,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+10,American Depositary Shares,07/06/2021,,S(1),,885.0,D,$325.0105(12),6205,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+11,American Depositary Shares,07/06/2021,,S(1),,3015.0,D,$326.2763(13),3190,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+12,American Depositary Shares,07/06/2021,,S(1),,2290.0,D,$327.2212(14),900,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+13,American Depositary Shares,07/06/2021,,S(1),,700.0,D,$328.0657(15),200,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+14,American Depositary Shares,07/06/2021,,S(1),,100.0,D,$329.41,100,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+15,American Depositary Shares,07/06/2021,,S(1),,100.0,D,$332.26,0,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+16,American Depositary Shares,07/07/2021,,S(1),,900.0,D,$310.3777(16),25146,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+17,American Depositary Shares,07/07/2021,,S(1),,2400.0,D,$311.3731(17),22746,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+18,American Depositary Shares,07/07/2021,,S(1),,3675.0,D,$312.1288(18),19071,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+19,American Depositary Shares,07/07/2021,,S(1),,3200.0,D,$313.3831(19),15871,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+20,American Depositary Shares,07/07/2021,,S(1),,3100.0,D,$314.5032(20),12771,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+21,American Depositary Shares,07/07/2021,,S(1),,3137.0,D,$315.1846(21),9634,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+22,American Depositary Shares,07/07/2021,,S(1),,2400.0,D,$316.4327(22),7234,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+23,American Depositary Shares,07/07/2021,,S(1),,1804.0,D,$317.3833(23),5430,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+24,American Depositary Shares,07/07/2021,,S(1),,1673.0,D,$318.5296(24),3757,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+25,American Depositary Shares,07/07/2021,,S(1),,1100.0,D,$319.5891(25),2657,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+26,American Depositary Shares,07/07/2021,,S(1),,900.0,D,$320.5222(26),1757,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+27,American Depositary Shares,07/07/2021,,S(1),,300.0,D,$321.4033(27),1457,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+28,American Depositary Shares,07/07/2021,,S(1),,300.0,D,$322.6298(28),1157,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+29,American Depositary Shares,07/07/2021,,S(1),,857.0,D,$323.7109(29),300,D,, Chief Executive Officer,OYLER JOHN ,BGNE 
+0,Common Stock,07/07/2021,,A,,"1,126(1)",A,$0,25132,D,,,Oliver Stephen E. ,FNWB 
+0,Common Stock,06/01/2021,,A(1),,20912.0,A,$17.21,1240126,D,, Chief Executive Officer,PAEK NACK Y ,MCBS 
+1,Common Stock,,,,,,,,20000,I,By Spouse, Chief Executive Officer,PAEK NACK Y ,MCBS 
+2,Common Stock,,,,,,,,28000,I,"By Magna Properties, LLC", Chief Executive Officer,PAEK NACK Y ,MCBS 
+0,Class A Common Stock,07/06/2021,,M(1),,5415.0,A,$36.94,42461.0,D,,,PENNINGTON BROOKS III ,CENT 
+1,Class A Common Stock,07/06/2021,,F(2),,4699.0,D,$46.47,37762.0,D,,,PENNINGTON BROOKS III ,CENT 
+2,Class A Common Stock,07/07/2021,,S(3),,716.0,D,$46.65,37046.0,D,,,PENNINGTON BROOKS III ,CENT 
+3,Class A Common Stock,,,,,,,,3876.0,I,By Spouse(4),,PENNINGTON BROOKS III ,CENT 
+4,Class A Common Stock,,,,,,,,15208.0,I,By LLC(5),,PENNINGTON BROOKS III ,CENT 
+5,Units,,,,,,,,2064.661,I,By 401(k) Plan(6),,PENNINGTON BROOKS III ,CENT 
+6,Common Stock,,,,,,,,159950.0,D,,,PENNINGTON BROOKS III ,CENT 
+7,Common Stock,,,,,,,,6938.0,I,By Spouse(4),,PENNINGTON BROOKS III ,CENT 
+8,Common Stock,,,,,,,,7604.0,I,By LLC(5),,PENNINGTON BROOKS III ,CENT 
+0,Common Stock(1),07/06/2021,,S,,7546,D,$10.02(2),64417,D,, Chief Accounting Officer/VP,DelaCruz Stephanie ,PFSW 
+1,Common Stock,07/06/2021,,M,,5000,A,$6.95,69417,D,, Chief Accounting Officer/VP,DelaCruz Stephanie ,PFSW 
+2,Common Stock(1),07/06/2021,,D,,5000,D,$10,64417,D,, Chief Accounting Officer/VP,DelaCruz Stephanie ,PFSW 
+0,Class A Common Stock,07/06/2021,,S(1),,858445.0,D,$11.13(2),24981634,I,See footnote(3),,PINCUS MARK J ,ZNGA 
+1,Class A Common Stock,07/06/2021,,S(1),,409479.0,D,$11.13(2),30315212,I,By Trust(4),,PINCUS MARK J ,ZNGA 
+2,Class A Common Stock,,,,,,,,233914,D,,,PINCUS MARK J ,ZNGA 
+0,Class A Common Stock(1),07/06/2021,,C(2),,37500,A,$0,37500,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+1,Class A Common Stock,07/06/2021,,S(3),,14600,D,$79.9291(4),22900,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+2,Class A Common Stock,07/06/2021,,S(3),,15071,D,$80.4373(5),7829,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+3,Class A Common Stock,07/06/2021,,S(3),,7829,D,$81.3236(6),0,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+4,Class A Common Stock,07/07/2021,,C(2),,37500,A,$0,37500,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+5,Class A Common Stock,07/07/2021,,S(3),,12058,D,$78.085(7),25442,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+6,Class A Common Stock,07/07/2021,,S(3),,9832,D,$78.6205(8),15610,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+7,Class A Common Stock,07/07/2021,,S(3),,5100,D,$79.5315(9),10510,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+8,Class A Common Stock,07/07/2021,,S(3),,6110,D,$80.4997(10),4400,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+9,Class A Common Stock,07/07/2021,,S(3),,4400,D,$81.2355(11),0,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+10,Class A Common Stock,07/08/2021,,C(2),,37500,A,$0,37500,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+11,Class A Common Stock,07/08/2021,,S(3),,9400,D,$74.7719(12),28100,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+12,Class A Common Stock,07/08/2021,,S(3),,11833,D,$75.3669(13),16267,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+13,Class A Common Stock,07/08/2021,,S(3),,16267,D,$76.0002(14),0,D,," Chairman, President, CEO, Co-F",Silbermann Benjamin ,PINS 
+0,Common Stock,07/07/2021,,M,,4000,A,$3.9,4000,D,, Chief Medical Officer,Alland Leila ,PMVP 
+1,Common Stock,07/07/2021,,S(1),,"1,951(2)",D,$31.9321,2049,D,, Chief Medical Officer,Alland Leila ,PMVP 
+2,Common Stock,07/07/2021,,S(1),,"2,049(3)",D,$32.6567,0,D,, Chief Medical Officer,Alland Leila ,PMVP 
+0,Common Stock,07/07/2021,,J(1),,9095,A,$1.3,133319,D,,,PORCELAIN MICHAEL ,AIRI 
+0,Common Stock,07/06/2021,,S(1),,2321.0,D,$88.24(2),1003597,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+1,Common Stock,07/06/2021,,S(1),,1001.0,D,$88.7121(4),1002596,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+2,Common Stock,07/06/2021,,S(1),,106.0,D,$90.5051(5),1002490,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+3,Common Stock,07/07/2021,,S(1),,4404.0,D,$87.6377(6),998086,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+4,Common Stock,07/07/2021,,S(1),,945.0,D,$88.335(7),997141,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+5,Common Stock,07/08/2021,,S(1),,337.0,D,$87.5965(8),996804,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+6,Common Stock,07/08/2021,,S(1),,886.0,D,$88.2851(9),995918,I,As co-trustee of the Robert and Allison Price Charitable Trust(3),,PRICE ROBERT E ,PSMT 
+7,Common Stock,07/06/2021,,S(1),,2322.0,D,$88.24(2),1296349,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+8,Common Stock,07/06/2021,,S(1),,1001.0,D,$88.7122(4),1295348,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+9,Common Stock,07/06/2021,,S(1),,105.0,D,$90.5045(5),1295243,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+10,Common Stock,07/07/2021,,S(1),,4405.0,D,$87.6377(6),1290838,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+11,Common Stock,07/07/2021,,S(1),,944.0,D,$88.3352(7),1289894,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+12,Common Stock,07/08/2021,,S(1),,338.0,D,$87.5959(8),1289556,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+13,Common Stock,07/08/2021,,S(1),,885.0,D,$88.2849(9),1288671,I,As co-trustee of the Robert and Allison Price Trust UDT 1/10/75(10),,PRICE ROBERT E ,PSMT 
+14,Common Stock,,,,,,,,80,D,,,PRICE ROBERT E ,PSMT 
+15,Common Stock,,,,,,,,150511,I,As co-manager of The Price Group LLC(11),,PRICE ROBERT E ,PSMT 
+16,Common Stock,,,,,,,,38805,I,As co-trustee of the David Price Trust UTD 9/22/89(12),,PRICE ROBERT E ,PSMT 
+17,Common Stock,,,,,,,,45000,I,Family Trusts,,PRICE ROBERT E ,PSMT 
+18,Common Stock,,,,,,,,8314,I,As managing member of RARSD LLC(13),,PRICE ROBERT E ,PSMT 
+0,Common Stock,07/07/2021,,A,,87.501(1),A,$204.89,6096.18,D,,,DUBLON DINA ,TROW 
+0,Common Stock,07/07/2021,,A,,94.557(1),A,$204.89,26021.502,D,,,MacLellan Robert F. ,TROW 
+0,Common Stock,07/07/2021,,A,,190.07(1),A,$204.89,22542.084,D,,,SNOWE OLYMPIA J. ,TROW 
+0,Common Stock,07/07/2021,,A,,114.255(1),A,$204.89,7960.1,D,,,Verma Richard R. ,TROW 
+0,Common Stock,06/01/2021,,A(1),,1162.0,A,$17.21,642524,D,,,Patel Ajit A. ,MCBS 
+1,Common Stock,,,,,,,,49088,I,By Spouse,,Patel Ajit A. ,MCBS 
+0,Class A Common Stock,07/06/2021,,S(1),,2480,D,$11,293539,D,, Chief Legal Officer,Phillips Phuong Y. ,ZNGA 
+0,"Common Stock, par value $0.0001",07/06/2021,,M,,45000,A,$12.38,54791,D,, EVP and CDO,Brindle Patrick ,PLL 
+1,"Common Stock, par value $0.0001",07/06/2021,,F,,7161,D,$77.8,47630,D,, EVP and CDO,Brindle Patrick ,PLL 
+2,"Common Stock, par value $0.0001",07/06/2021,,S,,5500,D,$78.0173(1),42130,D,, EVP and CDO,Brindle Patrick ,PLL 
+3,"Common Stock, par value $0.0001",07/06/2021,,S,,4500,D,$77.2322(2),37630,D,, EVP and CDO,Brindle Patrick ,PLL 
+4,"Common Stock, par value $0.0001",07/06/2021,,S,,10000,D,$71.0024(3),27630,D,, EVP and CDO,Brindle Patrick ,PLL 
+0,Common Stock,07/06/2021,,M,,7955,A,$1.92,328705,D,, Chief Operating Officer,Neagle Matthew ,PRCH 
+1,Common Stock,07/06/2021,,M,,2580,A,$3.18,331285,D,, Chief Operating Officer,Neagle Matthew ,PRCH 
+2,Common Stock,07/06/2021,,M,,1465,A,$2.07,332750,D,, Chief Operating Officer,Neagle Matthew ,PRCH 
+3,Common Stock,07/06/2021,,S(1),,12000,D,$19.49,320750,D,, Chief Operating Officer,Neagle Matthew ,PRCH 
+0,Common Stock,07/06/2021,,M,,15000,A,$1.89,15000,D,, Chief Medical Officer,Mauro David J ,PRLD 
+1,Common Stock,07/06/2021,,S(1),,10445,D,$27.1654(2),4555,D,, Chief Medical Officer,Mauro David J ,PRLD 
+2,Common Stock,07/06/2021,,S(1),,4255,D,$28.1343(3),300,D,, Chief Medical Officer,Mauro David J ,PRLD 
+3,Common Stock,07/06/2021,,S(1),,300,D,$28.8433(4),0,D,, Chief Medical Officer,Mauro David J ,PRLD 
+0,Common Stock,07/07/2021,,S,,"7,216(1)",D,$6.8134,285114,D,, Chief Revenue Officer,King Elizabeth ,QMCO 
+0,Common Stock,07/06/2021,,C,,6122557,A,(1),"6,122,557(2)",I,See footnotes(2)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+1,Common Stock,07/06/2021,,P,,1759332,A,$16,"7,881,889(2)",I,See footnotes(2)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+2,Common Stock,07/06/2021,,C,,1184366,A,(1),"1,184,336(3)",I,See footnotes(3)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+3,Common Stock,07/06/2021,,P,,115668,A,$16,"1,300,034(3)",I,See footnotes(3)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+4,Common Stock,07/06/2021,,C,,588850,A,(1),"588,850(4)",I,See footnotes(4)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+0,Common Stock,07/06/2021,,M(1),,4500,A,$2.25,28477,D,, Chief Financial Officer,Nielsen Christopher John ,RDFN 
+1,Common Stock,07/06/2021,,S(1),,4500,D,$62.66,23977,D,, Chief Financial Officer,Nielsen Christopher John ,RDFN 
+0,Class A Common Stock,07/06/2021,,C,,43690.0,A,$0.00(1),43690,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+1,Class A Common Stock,07/06/2021,,S(3),,43690.0,D,$69.69(4),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+2,Class A Common Stock,07/06/2021,,C,,28057.0,A,$0.00(1),28057,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+3,Class A Common Stock,07/06/2021,,S(3),,28057.0,D,$70.23(5),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+4,Class A Common Stock,07/06/2021,,C,,2940.0,A,$0.00(1),2940,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+5,Class A Common Stock,07/06/2021,,S(3),,2940.0,D,$71.53(6),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+6,Class A Common Stock,07/06/2021,,C,,1800.0,A,$0.00(1),1800,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+7,Class A Common Stock,07/06/2021,,S(3),,1800.0,D,$72.19(7),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+8,Class A Common Stock,07/07/2021,,C,,36289.0,A,$0.00(1),36289,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+9,Class A Common Stock,07/07/2021,,S(3),,36289.0,D,$65.89(8),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+10,Class A Common Stock,07/07/2021,,C,,11074.0,A,$0.00(1),11074,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+11,Class A Common Stock,07/07/2021,,S(3),,11074.0,D,$67.01(9),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+12,Class A Common Stock,07/07/2021,,C,,24309.0,A,$0.00(1),24309,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+13,Class A Common Stock,07/07/2021,,S(3),,24309.0,D,$67.83(10),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+14,Class A Common Stock,07/07/2021,,C,,7757.0,A,$0.00(1),7757,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+15,Class A Common Stock,07/07/2021,,S(3),,7757.0,D,$68.76(11),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+16,Class A Common Stock,07/07/2021,,C,,3154.0,A,$0.00(1),3154,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+17,Class A Common Stock,07/07/2021,,S(3),,3154.0,D,$69.88(12),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+18,Class A Common Stock,07/08/2021,,C,,2899.0,A,$0.00(1),2899,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+19,Class A Common Stock,07/08/2021,,S(3),,2899.0,D,$63.18(13),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+20,Class A Common Stock,07/08/2021,,C,,47887.0,A,$0.00(1),47887,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+21,Class A Common Stock,07/08/2021,,S(3),,47887.0,D,$64.07(14),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+22,Class A Common Stock,07/08/2021,,C,,54273.0,A,$0.00(1),54273,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+23,Class A Common Stock,07/08/2021,,S(3),,54273.0,D,$64.87(15),0,I,"By MMMK Development, Inc.(2)", CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+24,Class A Common Stock,,,,,,,,73000,D,, CO-CHIEF EXECUTIVE OFFICER,Mente Michael ,RVLV 
+0,Common Stock,07/07/2021,,F,,731.0,D,$17.75,"33,147(1)",D,," Executive VP, COO, GC",Riffle Christopher J ,FNWB 
+1,Common Stock,,,,,,,,1919,I,by ESOP," Executive VP, COO, GC",Riffle Christopher J ,FNWB 
+0,Common Stock,07/31/2020,,M,,1000.0,A,$0.0000,2396.0,D,, SVP - HDFSI,Root Jonathan R ,HOG 
+1,Common Stock,07/31/2020,,F,,294.0,D,$26.03,2102.0,D,, SVP - HDFSI,Root Jonathan R ,HOG 
+2,Common Stock,,,,,,,,7912.967,I,By 401(k), SVP - HDFSI,Root Jonathan R ,HOG 
+0,Common Stock,07/06/2021,,F(1),,97695,D,$6.85,488599,D,, President & COO,Ryan Christopher Michael ,GEVO 
+0,Common Stock,07/07/2021,,A,,8082,A,$6.92,37126,D,, Executive VP & COO,McKay Edward H ,SHEN 
+1,Common Stock,07/07/2021,,F,,914,D,$61.13,36212,D,, Executive VP & COO,McKay Edward H ,SHEN 
+0,Common Stock,07/06/2021,,S,,"1,555(1)",D,$56.45,31577,D,, EVP&ChiefAdminLegal&PubPolOff,SILLIMAN CRAIG L. ,VZ 
+1,Common Stock,,,,,,,,4358,I,By 401(k), EVP&ChiefAdminLegal&PubPolOff,SILLIMAN CRAIG L. ,VZ 
+0,Common Stock,06/30/2021,,A(1)(6),,4358390,A,$17,4358390,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+1,Common Stock,06/30/2021,,A(1)(6),,53374,A,$17,53374,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+2,Common Stock,07/06/2021,,C(5),,52648162,A,(5),57006552,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+3,Common Stock,07/06/2021,,C(5),,6096644,A,(1),6150018,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+4,Common Stock,07/06/2021,,C(5),,3822490,A,(1),60829042,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+5,Common Stock,07/06/2021,,C(5),,106081,A,(1),6256099,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+0,Class A Common Stock,07/07/2021,,M,,5125.0,A,$3.73,384456,D,, President and CEO,MADER MARK PATRICK ,SMAR 
+1,Class A Common Stock,,,,,,,,51250,I,By T49C Trust(1), President and CEO,MADER MARK PATRICK ,SMAR 
+2,Class A Common Stock,,,,,,,,51250,I,By T77A Trust(1), President and CEO,MADER MARK PATRICK ,SMAR 
+0,Class A Common Stock,07/06/2021,,M,,4000,A,$2.72,9903,D,, Chief Revenue Officer,Arntz Michael ,SMAR 
+1,Class A Common Stock,07/06/2021,,S(1),,4000,D,$75,5903,D,, Chief Revenue Officer,Arntz Michael ,SMAR 
+0,Class A Common Stock,07/07/2021,,M,,1500,A,$40.79,12262,D,, Chief Marketing Officer,Griffin Anna ,SMAR 
+1,Class A Common Stock,07/07/2021,,S(1),,1500,D,$77.1,10762,D,, Chief Marketing Officer,Griffin Anna ,SMAR 
+0,Common Stock,07/07/2021,,A(1),,63,A,$19.77,"6,459(2)",D,,,SMITH SANDFORD D ,CYTK 
+0,Tejon Ranch Co. Common Stock,07/08/2021,,A,,"1,483(1)",A,$15.21,"79,414(1)(2)",I(1)(2),Tejon Ranch Co. Non-Qualifed Deferred Compensation Plan Truact,,STACK GEOFFREY L ,TRC 
+0,Class I Common Shares,07/07/2021,,J(1),,168322.05,A,(1),"1,461,984.6(2)",I,"By Starwood REIT Advisors L.L.C., Starwood Real Estate Income Holdings, L.P. and Barry Sternlicht.",,STERNLICHT BARRY S ,N/A 
+0,Common Stock,07/07/2021,,A,,100.098(1),A,$204.89,7257.793,D,,,STEVENS ROBERT J ,TROW 
+0,Common Stock,07/07/2021,,S(1),,1108,D,$230.2898(2),119327,D,, President & COO,STRUBBE TODD B ,VRSN 
+1,Common Stock,07/07/2021,,S(1),,965,D,$231.3624(3),118362,D,, President & COO,STRUBBE TODD B ,VRSN 
+2,Common Stock,07/07/2021,,S(1),,927,D,$232.4974(4),117435,D,, President & COO,STRUBBE TODD B ,VRSN 
+0,"Class B Common Stock, par value $.01 per share",07/06/2021,,A,,754(1),A,$16.578(2),"2,499(3)",D,,,SUESS GREGORY ,ZDGE 
+0,Ordinary Shares,07/07/2021,,M,,3520,A,$105.28,29473.371,D,, Senior Vice President,SULTANA KEITH A ,TT 
+1,Ordinary Shares,07/07/2021,,S,,"3,520(1)",D,$187.9156(2),25953.371,D,, Senior Vice President,SULTANA KEITH A ,TT 
+2,Ordinary Shares(3),,,,,,,,11664.525,I,By Plan Trustee, Senior Vice President,SULTANA KEITH A ,TT 
+0,Common Stock,07/06/2021,,P,,500,A,$563.04,14180,D,,,STAGLIN GAREN K ,SIVB 
+0,Class 1 Common Stock,07/06/2021,,S,,3151895,D,$11.7294,28367064,I,See footnotes(1)(2),,"BAIN CAPITAL VENTURE INVESTORS, LLC ",BTRS 
+0,Common Stock,07/06/2021,,P,,202,A,$24.5561,3309,D,,,Schoener Timothy E ,CZNC 
+0,Common Stock,07/06/2021,,C,,6122557,A,(1),"6,122,557(2)",I,See footnotes(2)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+1,Common Stock,07/06/2021,,P,,1759332,A,$16,"7,881,889(2)",I,See footnotes(2)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+2,Common Stock,07/06/2021,,C,,1184366,A,(1),"1,184,336(3)",I,See footnotes(3)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+3,Common Stock,07/06/2021,,P,,115668,A,$16,"1,300,034(3)",I,See footnotes(3)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+4,Common Stock,07/06/2021,,C,,588850,A,(1),"588,850(4)",I,See footnotes(4)(5),,"RA CAPITAL MANAGEMENT, L.P. ",ABOS 
+0,Common Stock,06/01/2021,,A(1),,1162,A,$17.21,594808,D,,,Shim Sam Sang-Koo ,MCBS 
+0,Common Stock,06/30/2021,,A(1)(6),,4358390,A,$17,4358390,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+1,Common Stock,06/30/2021,,A(1)(6),,53374,A,$17,53374,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+2,Common Stock,07/06/2021,,C(5),,52648162,A,(5),57006552,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+3,Common Stock,07/06/2021,,C(5),,6096644,A,(1),6150018,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+4,Common Stock,07/06/2021,,C(5),,3822490,A,(1),60829042,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+5,Common Stock,07/06/2021,,C(5),,106081,A,(1),6256099,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+0,Common Stock,06/30/2021,,A(1)(6),,4358390,A,$17,4358390,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+1,Common Stock,06/30/2021,,A(1)(6),,53374,A,$17,53374,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+2,Common Stock,07/06/2021,,C(5),,52648162,A,(5),57006552,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+3,Common Stock,07/06/2021,,C(5),,6096644,A,(1),6150018,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+4,Common Stock,07/06/2021,,C(5),,3822490,A,(1),60829042,I,"Held through SLA CM Eclipse Holdings, L.P.(2)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+5,Common Stock,07/06/2021,,C(5),,106081,A,(1),6256099,I,"Held through SLA Eclipse Co-Invest, L.P.(3)(4)",,"Silver Lake Group, L.L.C. ",EVCM 
+0,Common Stock,07/07/2021,,S,,5000.0,D,$227,48000,I,See Footnote(1), President of R&D and CTO,Sinha Amit ,ZS 
+1,Common Stock,07/07/2021,,S,,5000.0,D,$227,48000,I,See footnote(2), President of R&D and CTO,Sinha Amit ,ZS 
+2,Common Stock,07/08/2021,,M,,7000.0,A,$5.925,268318,D,, President of R&D and CTO,Sinha Amit ,ZS 
+3,Common Stock,07/08/2021,,S(3),,400.0,D,$220.735(4),267918,D,, President of R&D and CTO,Sinha Amit ,ZS 
+4,Common Stock,07/08/2021,,S(3),,417.0,D,$222.3749(5),267501,D,, President of R&D and CTO,Sinha Amit ,ZS 
+5,Common Stock,07/08/2021,,S(3),,700.0,D,$223.42(6),266801,D,, President of R&D and CTO,Sinha Amit ,ZS 
+6,Common Stock,07/08/2021,,S(3),,1000.0,D,$224.362(7),265801,D,, President of R&D and CTO,Sinha Amit ,ZS 
+7,Common Stock,07/08/2021,,S(3),,2200.0,D,$225.5964(8),263601,D,, President of R&D and CTO,Sinha Amit ,ZS 
+8,Common Stock,07/08/2021,,S(3),,1900.0,D,$226.6453(9),261701,D,, President of R&D and CTO,Sinha Amit ,ZS 
+9,Common Stock,07/08/2021,,S(3),,383.0,D,$227.3299(10),261318,D,, President of R&D and CTO,Sinha Amit ,ZS 
+10,Common Stock,,,,,,,,149702,I,See footnote(11), President of R&D and CTO,Sinha Amit ,ZS 
+11,Common Stock,,,,,,,,82375,I,See Footnote(12), President of R&D and CTO,Sinha Amit ,ZS 
+12,Common Stock,,,,,,,,82374,I,See Footnote(13), President of R&D and CTO,Sinha Amit ,ZS 
+13,Common Stock,,,,,,,,48000,I,See Footnote(14), President of R&D and CTO,Sinha Amit ,ZS 
+0,Class A Common Stock,07/06/2021,,S,,"213,325(1)",D,$70.0171(2),40996154,D,, Chief Executive Officer,Spiegel Evan ,SNAP 
+1,Class A Common Stock,,,,,,,,4903730,I,By Trust(3), Chief Executive Officer,Spiegel Evan ,SNAP 
+0,Class I Common Shares,07/07/2021,,J(1),,168322.05,A,(1),"1,461,984.6(2)",I,"By Starwood REIT Advisors L.L.C., Starwood Real Estate Income Holdings, L.P. and Barry Sternlicht.",,STERNLICHT BARRY S ,N/A 
+0,Common Stock,07/06/2021,,A,,20588,A(1),$0,20588,D,, Chief Admin and HR Officer,Sterling Lisa M. ,EVCM 
+1,Common Stock,07/06/2021,,P,,5882,A,$17,5882,I,By Spouse, Chief Admin and HR Officer,Sterling Lisa M. ,EVCM 
+0,Class A Common Stock,07/06/2021,,C(1),,"10,000(2)",A,$0,10000,D,,,HANSEN MARKA ,SFIX 
+1,Class A Common Stock,07/06/2021,,S(3),,7700,D,$62.3776(4),2300,D,,,HANSEN MARKA ,SFIX 
+2,Class A Common Stock,07/06/2021,,S(3),,2300,D,$63.2117(5),0,D,,,HANSEN MARKA ,SFIX 
+0,Common Stock,07/06/2021,,A,,17647,A(1),$0,17647,D,, General Counsel,Storey Lisa E ,EVCM 
+1,Common Stock,07/06/2021,,P,,2941,A,$17,2941,I,By Spouse, General Counsel,Storey Lisa E ,EVCM 
+0,Class A Common Stock,07/06/2021,,C,,21725,A,(1),21725,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+1,Class A Common Stock,07/06/2021,,C,,561,A,(1),561,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+2,Class A Common Stock,07/06/2021,,C,,3752,A,(1),3752,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+3,Class A Common Stock,07/06/2021,,C,,807,A,(1),807,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+4,Class A Common Stock,07/06/2021,,C,,27,A,(1),27,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+5,Class A Common Stock,07/06/2021,,C,,1421,A,(1),1421,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+6,Class A Common Stock,07/06/2021,,C,,1275,A,(1),1275,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+7,Class A Common Stock,07/06/2021,,C,,111,A,(10),111,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+8,Class A Common Stock,07/06/2021,,C,,5683,A,(10),5683,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+9,Class A Common Stock,07/06/2021,,C,,5099,A,(10),5099,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+10,Class A Common Stock,07/06/2021,,S(14),,21725,D,$53.915(15),0,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+11,Class A Common Stock,07/06/2021,,S(14),,561,D,$53.915(15),0,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+12,Class A Common Stock,07/06/2021,,S(14),,3752,D,$53.915(15),0,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+13,Class A Common Stock,07/06/2021,,S(14),,807,D,$53.915(15),0,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+14,Class A Common Stock,07/06/2021,,S(14),,27,D,$53.915(15),0,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+15,Class A Common Stock,07/06/2021,,S(14),,1421,D,$53.915(15),0,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+16,Class A Common Stock,07/06/2021,,S(14),,1275,D,$53.915(15),0,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+17,Class A Common Stock,07/06/2021,,S(14),,111,D,$53.915(15),0,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+18,Class A Common Stock,07/06/2021,,S(14),,5683,D,$53.915(15),0,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+19,Class A Common Stock,07/06/2021,,S(14),,5099,D,$53.915(15),0,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+0,Class A Common Stock,07/06/2021,,C,,21725,A,(1),21725,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+1,Class A Common Stock,07/06/2021,,C,,561,A,(1),561,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+2,Class A Common Stock,07/06/2021,,C,,3752,A,(1),3752,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+3,Class A Common Stock,07/06/2021,,C,,807,A,(1),807,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+4,Class A Common Stock,07/06/2021,,C,,27,A,(1),27,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+5,Class A Common Stock,07/06/2021,,C,,1421,A,(1),1421,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+6,Class A Common Stock,07/06/2021,,C,,1275,A,(1),1275,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+7,Class A Common Stock,07/06/2021,,C,,111,A,(10),111,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+8,Class A Common Stock,07/06/2021,,C,,5683,A,(10),5683,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+9,Class A Common Stock,07/06/2021,,C,,5099,A,(10),5099,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+10,Class A Common Stock,07/06/2021,,S(14),,21725,D,$53.915(15),0,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+11,Class A Common Stock,07/06/2021,,S(14),,561,D,$53.915(15),0,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+12,Class A Common Stock,07/06/2021,,S(14),,3752,D,$53.915(15),0,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+13,Class A Common Stock,07/06/2021,,S(14),,807,D,$53.915(15),0,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+14,Class A Common Stock,07/06/2021,,S(14),,27,D,$53.915(15),0,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+15,Class A Common Stock,07/06/2021,,S(14),,1421,D,$53.915(15),0,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+16,Class A Common Stock,07/06/2021,,S(14),,1275,D,$53.915(15),0,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+17,Class A Common Stock,07/06/2021,,S(14),,111,D,$53.915(15),0,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+18,Class A Common Stock,07/06/2021,,S(14),,5683,D,$53.915(15),0,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+19,Class A Common Stock,07/06/2021,,S(14),,5099,D,$53.915(15),0,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+0,Class A Common Stock,07/06/2021,,C,,21725,A,(1),21725,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+1,Class A Common Stock,07/06/2021,,C,,561,A,(1),561,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+2,Class A Common Stock,07/06/2021,,C,,3752,A,(1),3752,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+3,Class A Common Stock,07/06/2021,,C,,807,A,(1),807,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+4,Class A Common Stock,07/06/2021,,C,,27,A,(1),27,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+5,Class A Common Stock,07/06/2021,,C,,1421,A,(1),1421,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+6,Class A Common Stock,07/06/2021,,C,,1275,A,(1),1275,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+7,Class A Common Stock,07/06/2021,,C,,111,A,(10),111,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+8,Class A Common Stock,07/06/2021,,C,,5683,A,(10),5683,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+9,Class A Common Stock,07/06/2021,,C,,5099,A,(10),5099,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+10,Class A Common Stock,07/06/2021,,S(14),,21725,D,$53.915(15),0,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+11,Class A Common Stock,07/06/2021,,S(14),,561,D,$53.915(15),0,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+12,Class A Common Stock,07/06/2021,,S(14),,3752,D,$53.915(15),0,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+13,Class A Common Stock,07/06/2021,,S(14),,807,D,$53.915(15),0,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+14,Class A Common Stock,07/06/2021,,S(14),,27,D,$53.915(15),0,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+15,Class A Common Stock,07/06/2021,,S(14),,1421,D,$53.915(15),0,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+16,Class A Common Stock,07/06/2021,,S(14),,1275,D,$53.915(15),0,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+17,Class A Common Stock,07/06/2021,,S(14),,111,D,$53.915(15),0,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+18,Class A Common Stock,07/06/2021,,S(14),,5683,D,$53.915(15),0,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+19,Class A Common Stock,07/06/2021,,S(14),,5099,D,$53.915(15),0,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+0,Class A Common Stock,07/06/2021,,C,,21725,A,(1),21725,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+1,Class A Common Stock,07/06/2021,,C,,561,A,(1),561,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+2,Class A Common Stock,07/06/2021,,C,,3752,A,(1),3752,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+3,Class A Common Stock,07/06/2021,,C,,807,A,(1),807,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+4,Class A Common Stock,07/06/2021,,C,,27,A,(1),27,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+5,Class A Common Stock,07/06/2021,,C,,1421,A,(1),1421,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+6,Class A Common Stock,07/06/2021,,C,,1275,A,(1),1275,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+7,Class A Common Stock,07/06/2021,,C,,111,A,(10),111,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+8,Class A Common Stock,07/06/2021,,C,,5683,A,(10),5683,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+9,Class A Common Stock,07/06/2021,,C,,5099,A,(10),5099,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+10,Class A Common Stock,07/06/2021,,S(14),,21725,D,$53.915(15),0,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+11,Class A Common Stock,07/06/2021,,S(14),,561,D,$53.915(15),0,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+12,Class A Common Stock,07/06/2021,,S(14),,3752,D,$53.915(15),0,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+13,Class A Common Stock,07/06/2021,,S(14),,807,D,$53.915(15),0,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+14,Class A Common Stock,07/06/2021,,S(14),,27,D,$53.915(15),0,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+15,Class A Common Stock,07/06/2021,,S(14),,1421,D,$53.915(15),0,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+16,Class A Common Stock,07/06/2021,,S(14),,1275,D,$53.915(15),0,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+17,Class A Common Stock,07/06/2021,,S(14),,111,D,$53.915(15),0,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+18,Class A Common Stock,07/06/2021,,S(14),,5683,D,$53.915(15),0,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+19,Class A Common Stock,07/06/2021,,S(14),,5099,D,$53.915(15),0,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+0,Class A Common Stock,07/06/2021,,C,,21725,A,(1),21725,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+1,Class A Common Stock,07/06/2021,,C,,561,A,(1),561,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+2,Class A Common Stock,07/06/2021,,C,,3752,A,(1),3752,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+3,Class A Common Stock,07/06/2021,,C,,807,A,(1),807,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+4,Class A Common Stock,07/06/2021,,C,,27,A,(1),27,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+5,Class A Common Stock,07/06/2021,,C,,1421,A,(1),1421,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+6,Class A Common Stock,07/06/2021,,C,,1275,A,(1),1275,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+7,Class A Common Stock,07/06/2021,,C,,111,A,(10),111,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+8,Class A Common Stock,07/06/2021,,C,,5683,A,(10),5683,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+9,Class A Common Stock,07/06/2021,,C,,5099,A,(10),5099,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+10,Class A Common Stock,07/06/2021,,S(14),,21725,D,$53.915(15),0,I,See Footnotes(2)(3),,"TA ASSOCIATES, L.P. ",ZI 
+11,Class A Common Stock,07/06/2021,,S(14),,561,D,$53.915(15),0,I,See Footnotes(3)(4),,"TA ASSOCIATES, L.P. ",ZI 
+12,Class A Common Stock,07/06/2021,,S(14),,3752,D,$53.915(15),0,I,See Footnotes(3)(5),,"TA ASSOCIATES, L.P. ",ZI 
+13,Class A Common Stock,07/06/2021,,S(14),,807,D,$53.915(15),0,I,See Footnotes(3)(6),,"TA ASSOCIATES, L.P. ",ZI 
+14,Class A Common Stock,07/06/2021,,S(14),,27,D,$53.915(15),0,I,See Footnotes(3)(7),,"TA ASSOCIATES, L.P. ",ZI 
+15,Class A Common Stock,07/06/2021,,S(14),,1421,D,$53.915(15),0,I,See Footnotes(3)(8),,"TA ASSOCIATES, L.P. ",ZI 
+16,Class A Common Stock,07/06/2021,,S(14),,1275,D,$53.915(15),0,I,See Footnotes(3)(9),,"TA ASSOCIATES, L.P. ",ZI 
+17,Class A Common Stock,07/06/2021,,S(14),,111,D,$53.915(15),0,I,See Footnotes(3)(11),,"TA ASSOCIATES, L.P. ",ZI 
+18,Class A Common Stock,07/06/2021,,S(14),,5683,D,$53.915(15),0,I,See Footnotes(3)(12),,"TA ASSOCIATES, L.P. ",ZI 
+19,Class A Common Stock,07/06/2021,,S(14),,5099,D,$53.915(15),0,I,See Footnotes(3)(13),,"TA ASSOCIATES, L.P. ",ZI 
+0,Common Stock,07/08/2021,,A,,1236,A,$15.21,61393,D,,,TISCH DANIEL R ,TRC 
+0,Tejon Ranch Co. Common Stock,07/08/2021,,A(1),,"1,154(1)",A,$15.21,"68,501(1)(2)",I(1)(2),Tejon Ranch Co. Non-Qualifed Deferred Compensation Plan Trust.(1),,METCALFE NORMAN J ,TRC 
+0,Tejon Ranch Co. Common Stock,07/08/2021,,A,,"1,483(1)",A,$15.21,"79,414(1)(2)",I(1)(2),Tejon Ranch Co. Non-Qualifed Deferred Compensation Plan Truact,,STACK GEOFFREY L ,TRC 
+0,Ordinary Shares,06/30/2021,,P,,1051480.0,A,$0.034(1),1051480,D,, CEO and Director,COMMISSIONG GERALD ,TOMDF 
+1,Ordinary Shares,,,,,,,,78025645,I,See footnote(2), CEO and Director,COMMISSIONG GERALD ,TOMDF 
+0,Class A Common Stock,07/06/2021,,S(1),,1200,D,$386.08,"77,726(2)",D,, Chief Financial Officer,Shipchandler Khozema ,TWLO 
+0,COMMON STOCK,07/06/2021,,M,,20000,A,$0.93(1),97163,D,,,Ballesta Moya Gloria L ,UEC 
+1,COMMON STOCK,07/06/2021,,F,,7783,D,$2.39,89380,D,,,Ballesta Moya Gloria L ,UEC 
+2,COMMON STOCK,07/07/2021,,S,,3300,D,$2.32,86080,D,,,Ballesta Moya Gloria L ,UEC 
+3,COMMON STOCK,07/07/2021,,S,,16700,D,$2.31,69380,D,,,Ballesta Moya Gloria L ,UEC 
+0,Common Stock,07/06/2021,,S,,"2,000(1)",D,$5.92,2098475,D,,,LONG MICHAEL R ,USIO 
+1,Common Stock,07/07/2021,,S,,"2,000(1)",D,$5.95,2096475,D,,,LONG MICHAEL R ,USIO 
+0,"Common Stock, par value $0.001 per share",07/06/2021,,S(1),,879,D,$59.64(2),75423,D,,,Segev Ofer ,VRNS 
+1,"Common Stock, par value $0.001 per share",07/06/2021,,S(1),,621,D,$60.35(3),74802,D,,,Segev Ofer ,VRNS 
+0,Common Stock,07/07/2021,,S(1),,1108,D,$230.2898(2),119327,D,, President & COO,STRUBBE TODD B ,VRSN 
+1,Common Stock,07/07/2021,,S(1),,965,D,$231.3624(3),118362,D,, President & COO,STRUBBE TODD B ,VRSN 
+2,Common Stock,07/07/2021,,S(1),,927,D,$232.4974(4),117435,D,, President & COO,STRUBBE TODD B ,VRSN 
+0,Common Stock,07/07/2021,,M,,5000,A,$5.175,114277,D,, Chief Medical Officer,Pang Phillip ,VIR 
+1,Common Stock,07/07/2021,,S(1),,3505,D,$40.1632(2),110772,D,, Chief Medical Officer,Pang Phillip ,VIR 
+2,Common Stock,07/07/2021,,S(1),,1495,D,$40.9089(3),109277,D,, Chief Medical Officer,Pang Phillip ,VIR 
+0,Common Stock(1),07/06/2021,,A,,2073,A,$0.0,2073,D,,,Suzuki Miyuki ,WDC 
+0,Common Stock,07/07/2021,,A(1),,63,A,$19.77,"6,459(2)",D,,,WIERENGA WENDALL ,CYTK 
+0,Common Stock,07/07/2021,,A,,85.301(1),A,$204.89,15626.9078,D,,,WIJNBERG SANDRA S ,TROW 
+0,Common Stock,07/06/2021,,M(1),,1750.0,A,$1.6806,"596,529(2)",D,, President and CEO,Watanabe Todd Franklin ,ARQT 
+1,Common Stock,07/06/2021,,S(1),,1750.0,D,$26.58,"594,779(2)",D,, President and CEO,Watanabe Todd Franklin ,ARQT 
+2,Common Stock,,,,,,,,57358,I,By LLC(3), President and CEO,Watanabe Todd Franklin ,ARQT 
+3,Common Stock,,,,,,,,17850,I,By Trust(4), President and CEO,Watanabe Todd Franklin ,ARQT 
+4,Common Stock,,,,,,,,17850,I,By Trust(5), President and CEO,Watanabe Todd Franklin ,ARQT 
+5,Common Stock,,,,,,,,124956,I,By Trust(6), President and CEO,Watanabe Todd Franklin ,ARQT 
+0,Ordinary Shares(1),07/06/2021,,A,V,113,A,$137.122(2),31780,D,, Chief Science Officer,Weinberg Uri ,NVCR 
+0,Class A Common Stock,07/06/2021,,C(1),,3000000,A,(1),3000000,D(3),,,"Wengen Alberta, LP ",LAUR 
+0,Common Stock,07/06/2021,,A(1),,29110,A,(1),105684,D,, Chief Legal Officer,Wolberg Steven ,NETE 
+0,Class A Common Stock,07/07/2021,,S,,5000.0,D,$76.8531(1),12000,I,By Justin Yeshil Wickett Trust(2),,YESIL MAGDALENA ,SMAR 
+1,Class A Common Stock,07/07/2021,,S,,5000.0,D,$76.8662(3),12002,I,By Troy Kevork Wickett Trust(2),,YESIL MAGDALENA ,SMAR 
+2,Class A Common Stock,,,,,,,,16551,D,,,YESIL MAGDALENA ,SMAR 
+0,Class A Common Stock,07/06/2021,,S(1),,1400,D,$179.125(2),"322,754(3)",D,, Chief Business & Legal Officer,Yandell Keith ,DASH 
+1,Class A Common Stock,07/06/2021,,S(1),,5100,D,$180.012(4),"317,654(3)",D,, Chief Business & Legal Officer,Yandell Keith ,DASH 
+2,Class A Common Stock,07/06/2021,,S(1),,1300,D,$181.103(5),"316,354(3)",D,, Chief Business & Legal Officer,Yandell Keith ,DASH 
+3,Class A Common Stock,07/06/2021,,S(1),,7194,D,$182.176(6),"309,160(3)",D,, Chief Business & Legal Officer,Yandell Keith ,DASH 
+4,Class A Common Stock,07/06/2021,,S(1),,10440,D,$183.159(7),"298,720(3)",D,, Chief Business & Legal Officer,Yandell Keith ,DASH 
+5,Class A Common Stock,07/06/2021,,S(1),,1601,D,$183.721(8),"297,119(3)",D,, Chief Business & Legal Officer,Yandell Keith ,DASH 
+0,"Class B Common Stock, par value $.01 per share",07/06/2021,,A,,754(1),A,$16.578(2),"2,499(3)",D,,,SUESS GREGORY ,ZDGE 
+0,Common Stock,07/06/2021,,S(1),,4906.0,D,$46.7826(2),1014747,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+1,Common Stock,07/06/2021,,S(1),,1349.0,D,$47.1668(3),1013398,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+2,Common Stock,07/06/2021,,S(1),,96.0,D,$48.8341(4),1013302,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+3,Common Stock,07/07/2021,,S(1),,1166.0,D,$46.0784(5),1012136,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+4,Common Stock,07/07/2021,,S(1),,1842.0,D,$47.2801(6),1010294,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+5,Common Stock,07/07/2021,,S(1),,1506.0,D,$47.7626(7),1008788,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+6,Common Stock,07/06/2021,,S(8),,12947.0,D,$46.8364(9),995841,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+7,Common Stock,07/06/2021,,S(8),,800.0,D,$47.3298(10),995041,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+8,Common Stock,07/06/2021,,S(8),,200.0,D,$49.205(11),994841,D,, Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+9,Common Stock,,,,,,,,25260,I,See Footnote(12), Chief Operating Officer,Bunker Kevin D. ,ZNTL 
+0,Class A Common Stock,07/06/2021,,C,,15625,A,$0,15625,D,,,Hammonds Kimberly ,ZM 
+1,Class A Common Stock,07/06/2021,,S(1),,15625,D,$400.0507(2),0,D,,,Hammonds Kimberly ,ZM 
+0,Class A Common Stock,07/06/2021,,C(1)(2),,145499,A,(2),145499,D,,,DO Holdings ,ZI 
+1,Class A Common Stock,07/06/2021,,S(1),,39416,D,$52.2621(3),106083,D,,,DO Holdings ,ZI 
+2,Class A Common Stock,07/06/2021,,S(1),,74028,D,$52.7135(4),32055,D,,,DO Holdings ,ZI 
+3,Class A Common Stock,07/06/2021,,S(1),,32055,D,$53.6993(5),0,D,,,DO Holdings ,ZI 
+0,Common Stock,07/06/2021,,C,,26187,A,(1),26187,D,, Chief Financial Officer,Zuga Matt ,ABOS 
+0,Common Stock,07/02/2021,,J(1),,2147916,D,(1),0,D,, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+1,Class A Common Stock,07/02/2021,,J(1),,2147916,A,(1),2147916,D,, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+2,Class A Common Stock,07/02/2021,,J(2),,1200843,D,(2),947073,D,, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+3,Common Stock,07/02/2021,,J(1),,300000,D,(1),0,I,Held by the Jason Eric Zuriff Trust, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+4,Class A Common Stock,07/02/2021,,J(1),,300000,A,(1),300000,I,Held by the Jason Eric Zuriff Trust, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+5,Common Stock,07/02/2021,,J(1),,300000,D,(1),0,I,Held by the Sophie Anna Zuriff 2020 Trust, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+6,Class A Common Stock,07/02/2021,,J(1),,300000,A,(1),300000,I,Held by the Sophie Anna Zuriff 2020 Trust, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+7,Common Stock,07/02/2021,,J(1),,300000,D,(1),0,I,Held by the Zuriff Family 2020 Trust, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+8,Class A Common Stock,07/02/2021,,J(1),,300000,A,(1),300000,I,Held by the Zuriff Family 2020 Trust, Chief Strategy Officer,Zuriff Laurence ,XMTR 
+9,Class A Common Stock,07/02/2021,,C,,201176,A,(3),201176,I,"Held by ZFI Capital,LP.", Chief Strategy Officer,Zuriff Laurence ,XMTR 
+0,Common Shares,07/06/2021,,A(1),,299.0,A,$29.49,10770,D,, Chief Financial Officer,Klompas Neil A ,ZYME 
+1,Common Shares,,,,,,,,700,I,Held by spouse, Chief Financial Officer,Klompas Neil A ,ZYME 
+0,Common Stock,,,,,,,,2640,D,,,van Veenendaal Frank ,COUP 
+1,Common Stock,07/06/2021,,S(1),,400.0,D,$275,11314,I,By Trust(2),,van Veenendaal Frank ,COUP 
+2,Common Stock,07/06/2021,,S(1),,400.0,D,$275,11314,I,By Trust(2),,van Veenendaal Frank ,COUP 
+3,Common Stock,,,,,,,,78893,I,By Trust(3),,van Veenendaal Frank ,COUP 
