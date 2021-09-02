@@ -1,4 +1,4 @@
-const jwt = requie('jsonwebtoken');
+const jwt = require('jsonwebtoken');
 
 const auth = (req, res, next) => {
   const token = req.header('x-auth-token');
@@ -6,11 +6,11 @@ const auth = (req, res, next) => {
     return res.status(401).json({ msg: 'no token authorization denied' });
   try {
     const decoded = jwt.verify(token, 'secret'); //todo put this in .env file
-    req.user = decoded.user;
+    req.member = decoded.member;
     next();
   } catch (err) {
     res.status(401).json({ msg: 'token is invalid' });
   }
 };
 
-modules.exports = auth;
+module.exports = auth;
