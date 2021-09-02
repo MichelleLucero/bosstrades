@@ -131,7 +131,7 @@ app.post('/api/member/', async (req, res) => {
     );
 
     const payload = {
-      user: {
+      member: {
         id: result.rows[0].member_uid,
       },
     };
@@ -147,6 +147,61 @@ app.post('/api/member/', async (req, res) => {
         res.json({ token });
       }
     );
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// login users
+app.post('/api/auth/', async (req, res) => {
+  const { email, password } = req.body;
+
+  if (email === '') res.status(400).send('Email is empty');
+  if (password === '') res.status(400).send('Password is empty');
+  if (password.length < 6) res.status(400).send('Password is too short');
+
+  try {
+    const isMatch = await db.query(
+      'SELECT * FROM member WHERE email = $1 AND password = $2',
+      [email, password]
+    );
+
+    if (isMatch.rows.length === 0) {
+      return res.status(400).json({ msg: 'Invalid Credentials' });
+    }
+
+    const payload = {
+      member: {
+        id: isMatch.rows[0].member_uid,
+      },
+    };
+
+    jwt.sign(
+      payload,
+      'secret', //todo put this in .env file
+      { expiresIn: 3600000 },
+      (err, token) => {
+        if (err) {
+          throw err;
+        }
+        res.json({ token });
+      }
+    );
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+app.get('/api/auth/', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const member = await db.query(
+      'SELECT member_uid, email, last_name, first_name FROM member WHERE member_uid = $1',
+      [id]
+    );
+    res.json(member.rows[0]);
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
