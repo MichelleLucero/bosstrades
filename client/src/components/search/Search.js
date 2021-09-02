@@ -27,7 +27,7 @@ const Search = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    history.push('/' + input);
+    history.push('/search/' + input);
   };
 
   return (

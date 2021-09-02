@@ -109,10 +109,10 @@ FROM
 -- Users Table
 CREATE TABLE member(
 	member_uid UUID NOT NULL PRIMARY KEY,
-  first_name VARCHAR(64),
-  last_name VARCHAR(64),
-  email VARCHAR(120),
-  password VARCHAR(64)
+  first_name VARCHAR(64) NOT NULL,
+  last_name VARCHAR(64) NOT NULL,
+  email VARCHAR(120) NOT NULL,
+  password VARCHAR(64) NOT NULL
 );
 
 -- User Company Table
