@@ -9,6 +9,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const app = express();
 const auth = require('./middleware/auth');
+const { reset } = require('nodemon');
 
 // Middleware
 app.use(cors());
@@ -122,19 +123,12 @@ app.post('/api/member/', async (req, res) => {
     if (member.rows.length > 0)
       return res.status(400).json({ msg: 'member already exists' });
 
-    const isMatch = await bcrypt.compare(password, member.rows[0].password);
-
-    if (!isMatch) {
-      const salt = await bcrypt.genSalt(10);
-      const password = await bcrypt.hash(password, salt);
-    }
-
-    // const salt = await bcrypt.genSalt(10);
-    // const pwd = await bcrypt.hash(password, salt);
+    const salt = await bcrypt.genSalt(10);
+    const pwd = await bcrypt.hash(password, salt);
 
     const result = await db.query(
       'INSERT INTO member(member_uid, first_name, last_name, email, password) VALUES(uuid_generate_v4(), $1, $2, $3, $4 ) returning *',
-      [first_name, last_name, email, password]
+      [first_name, last_name, email, pwd]
     );
 
     const payload = {
@@ -171,14 +165,27 @@ app.put('/api/member/', auth, async (req, res) => {
 
   try {
     const { id } = req.member;
-    const user = await db.query(
-      `SELECT * FROM member where email = '${email}'`
+    const member = await db.query(
+      `SELECT * FROM member where member_uid = '${id}'`
     );
-    if (user.rows.length > 0)
-      return res.status(400).json({ msg: 'email is taken' });
 
-    const salt = await bcrypt.genSalt(10);
-    const pwd = await bcrypt.hash(password, salt);
+    if (email != member.rows[0].email) {
+      const check_email = await db.query(
+        `SELECT * FROM member where email = '${email}'`
+      );
+      if (check_email.rows.length > 0) {
+        return res.status(400).json({ msg: 'email is taken' });
+      }
+    }
+
+    const isMatch = await bcrypt.compare(password, member.rows[0].password);
+    let pwd = password;
+    if (!isMatch) {
+      const salt = await bcrypt.genSalt(10);
+      pwd = await bcrypt.hash(password, salt);
+    }
+    // const salt = await bcrypt.genSalt(10);
+    // const pwd = await bcrypt.hash(password, salt);
 
     const result = await db.query(
       'UPDATE member SET first_name = $1, last_name = $2, email = $3, password = $4 WHERE member_uid = $5 returning *',
