@@ -7,6 +7,7 @@ import SearchResult from './pages/SearchResult';
 import TransactionCompany from './pages/TransactionCompany';
 import TransactionPerson from './pages/TransactionPerson';
 import Login from './pages/Login';
+import Homepage from './pages/Homepage';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Navbar />
         {/* <Search /> */}
         <Switch>
+          <Route path='/' component={Homepage} />
           <Route path='/search/:query' component={SearchResult} />
           <Route
             path='/transaction/company/:ticker'
