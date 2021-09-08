@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import Search from '../components/search/Search';
 import api from '../utils/api';
 
 const TransactionPerson = () => {
@@ -19,6 +20,7 @@ const TransactionPerson = () => {
 
   return (
     <div>
+      <Search />
       <div>
         <h1>Transactions</h1>
         <p>{transactions.person.name}</p>

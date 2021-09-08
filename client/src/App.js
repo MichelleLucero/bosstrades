@@ -8,15 +8,16 @@ import TransactionCompany from './pages/TransactionCompany';
 import TransactionPerson from './pages/TransactionPerson';
 import Login from './pages/Login';
 import Homepage from './pages/Homepage';
+import { AuthContextProvider } from './context/AuthContext';
 
 const App = () => {
   return (
-    <div>
+    <AuthContextProvider>
       <Router>
         <Navbar />
         {/* <Search /> */}
         <Switch>
-          <Route path='/' component={Homepage} />
+          <Route exact path='/' component={Homepage} />
           <Route path='/search/:query' component={SearchResult} />
           <Route
             path='/transaction/company/:ticker'
@@ -29,7 +30,7 @@ const App = () => {
           <Route path='/login' component={Login} />
         </Switch>
       </Router>
-    </div>
+    </AuthContextProvider>
   );
 };
 

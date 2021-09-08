@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Search from '../components/search/Search';
 import api from '../utils/api';
 
 const SearchResult = () => {
@@ -21,6 +22,7 @@ const SearchResult = () => {
 
   return (
     <div>
+      <Search />
       <div>
         <h1>Companies</h1>
         {results.companies &&
