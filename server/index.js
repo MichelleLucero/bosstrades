@@ -278,7 +278,7 @@ app.post('/api/auth/', async (req, res) => {
   }
 });
 
-app.get('/api/auth/', auth, async (req, res) => {
+app.get('/api/member/', auth, async (req, res) => {
   try {
     const { id } = req.member;
     const member = await db.query(
