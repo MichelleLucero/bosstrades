@@ -1,19 +1,23 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import './App.css';
-import Search from './components/search/Search';
+// import Search from './components/search/Search';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SearchResult from './pages/SearchResult';
 import TransactionCompany from './pages/TransactionCompany';
 import TransactionPerson from './pages/TransactionPerson';
+import Login from './pages/Login';
+import Homepage from './pages/Homepage';
+import { AuthContextProvider } from './context/AuthContext';
 
 const App = () => {
   return (
-    <div>
+    <AuthContextProvider>
       <Router>
         <Navbar />
-        <Search />
+        {/* <Search /> */}
         <Switch>
+          <Route exact path='/' component={Homepage} />
           <Route path='/search/:query' component={SearchResult} />
           <Route
             path='/transaction/company/:ticker'
@@ -23,9 +27,10 @@ const App = () => {
             path='/transaction/person/:person_id'
             component={TransactionPerson}
           />
+          <Route path='/login' component={Login} />
         </Switch>
       </Router>
-    </div>
+    </AuthContextProvider>
   );
 };
 

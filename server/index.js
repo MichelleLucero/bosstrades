@@ -9,6 +9,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const app = express();
 const auth = require('./middleware/auth');
+const { reset } = require('nodemon');
 
 // Middleware
 app.use(cors());
@@ -116,11 +117,11 @@ app.post('/api/member/', async (req, res) => {
   if (password.length < 6) res.status(400).send('Password is too short');
 
   try {
-    const user = await db.query(
+    const member = await db.query(
       `SELECT * FROM member where email = '${email}'`
     );
-    if (user.rows.length > 0)
-      return res.status(400).json({ msg: 'user already exists' });
+    if (member.rows.length > 0)
+      return res.status(400).json({ msg: 'member already exists' });
 
     const salt = await bcrypt.genSalt(10);
     const pwd = await bcrypt.hash(password, salt);
@@ -153,27 +154,47 @@ app.post('/api/member/', async (req, res) => {
   }
 });
 
-// login users
-app.post('/api/auth/', async (req, res) => {
-  const { email, password } = req.body;
+app.put('/api/member/', auth, async (req, res) => {
+  const { first_name, last_name, email, password } = req.body;
 
+  if (first_name === '') res.status(400).send('First name is empty');
+  if (last_name === '') res.status(400).send('Last name is empty');
   if (email === '') res.status(400).send('Email is empty');
   if (password === '') res.status(400).send('Password is empty');
   if (password.length < 6) res.status(400).send('Password is too short');
 
   try {
-    const isMatch = await db.query(
-      'SELECT * FROM member WHERE email = $1 AND password = $2',
-      [email, password]
+    const { id } = req.member;
+    const member = await db.query(
+      `SELECT * FROM member where member_uid = '${id}'`
     );
 
-    if (isMatch.rows.length === 0) {
-      return res.status(400).json({ msg: 'Invalid Credentials' });
+    if (email != member.rows[0].email) {
+      const check_email = await db.query(
+        `SELECT * FROM member where email = '${email}'`
+      );
+      if (check_email.rows.length > 0) {
+        return res.status(400).json({ msg: 'email is taken' });
+      }
     }
+
+    const isMatch = await bcrypt.compare(password, member.rows[0].password);
+    let pwd = password;
+    if (!isMatch) {
+      const salt = await bcrypt.genSalt(10);
+      pwd = await bcrypt.hash(password, salt);
+    }
+    // const salt = await bcrypt.genSalt(10);
+    // const pwd = await bcrypt.hash(password, salt);
+
+    const result = await db.query(
+      'UPDATE member SET first_name = $1, last_name = $2, email = $3, password = $4 WHERE member_uid = $5 returning *',
+      [first_name, last_name, email, pwd, id]
+    );
 
     const payload = {
       member: {
-        id: isMatch.rows[0].member_uid,
+        id: result.rows[0].member_uid,
       },
     };
 
@@ -194,7 +215,70 @@ app.post('/api/auth/', async (req, res) => {
   }
 });
 
-app.get('/api/auth/', auth, async (req, res) => {
+// delete member
+app.delete('/api/member/', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const member = await db.query('DELETE FROM member WHERE member_uid = $1', [
+      id,
+    ]);
+
+    res.status(200).json({
+      status: 'success',
+    });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// login users
+app.post('/api/auth/', async (req, res) => {
+  const { email, password } = req.body;
+
+  if (email === '') res.status(400).send('Email is empty');
+  if (password === '') res.status(400).send('Password is empty');
+  if (password.length < 6) res.status(400).send('Password is too short');
+
+  try {
+    const member = await db.query('SELECT * FROM member WHERE email = $1', [
+      email,
+    ]);
+
+    if (member.rows.length === 0) {
+      return res.status(400).json({ msg: 'Invalid Credentials' });
+    }
+
+    const isMatch = await bcrypt.compare(password, member.rows[0].password);
+
+    if (!isMatch) {
+      return res.status(400).json({ msg: 'Invalid Credentials' });
+    }
+
+    const payload = {
+      member: {
+        id: member.rows[0].member_uid,
+      },
+    };
+
+    jwt.sign(
+      payload,
+      'secret', //todo put this in .env file
+      { expiresIn: 3600000 },
+      (err, token) => {
+        if (err) {
+          throw err;
+        }
+        res.json({ token });
+      }
+    );
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+app.get('/api/member/', auth, async (req, res) => {
   try {
     const { id } = req.member;
     const member = await db.query(

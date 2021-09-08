@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -11,6 +12,10 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+  },
+  attrLinks: {
+    color: 'white',
+    textDecoration: 'none',
   },
 }));
 
@@ -23,7 +28,9 @@ const Navbar = () => {
           <Typography variant='h6' className={classes.title}>
             BossTrades
           </Typography>
-          <Button color='inherit'>Login</Button>
+          <Link className={classes.attrLinks} to='/login'>
+            <Button color='inherit'>Login</Button>
+          </Link>
         </Toolbar>
       </AppBar>
     </div>
