@@ -8,10 +8,11 @@ import TransactionCompany from './pages/TransactionCompany';
 import TransactionPerson from './pages/TransactionPerson';
 import Login from './pages/Login';
 import Homepage from './pages/Homepage';
+import { AuthContextProvider } from './context/AuthContext';
 
 const App = () => {
   return (
-    <div>
+    <AuthContextProvider>
       <Router>
         <Navbar />
         {/* <Search /> */}
@@ -29,7 +30,7 @@ const App = () => {
           <Route path='/login' component={Login} />
         </Switch>
       </Router>
-    </div>
+    </AuthContextProvider>
   );
 };
 

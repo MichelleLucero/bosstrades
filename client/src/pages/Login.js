@@ -1,6 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import api from '../utils/api';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -14,6 +13,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import { AuthContext } from '../context/AuthContext';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -39,7 +39,7 @@ const Login = () => {
   const classes = useStyles();
   const history = useHistory();
   const [cred, setCred] = useState({ email: '', password: '' });
-  const [isAuthenticated, setIsAuthticated] = useState(false);
+  const { isAuthenticated, login } = useContext(AuthContext);
 
   const onChange = (e) => setCred({ ...cred, [e.target.name]: e.target.value });
 
@@ -54,23 +54,7 @@ const Login = () => {
     if (cred.email === '' || cred.password === '') {
       console.error('please fill in all fields');
     } else {
-      const login = async () => {
-        try {
-          const response = await api.post('/auth/', cred);
-
-          localStorage.setItem('token', response.data.token);
-
-          if (localStorage.token) {
-            api.defaults.headers.common['x-auth-token'] = localStorage.token;
-          } else {
-            delete api.defaults.headers.common['x-auth-token'];
-          }
-          setIsAuthticated(true);
-        } catch (err) {
-          console.error(err);
-        }
-      };
-      login();
+      login(cred);
     }
   };
 
