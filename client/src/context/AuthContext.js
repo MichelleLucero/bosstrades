@@ -1,5 +1,6 @@
 import React, { useState, createContext } from 'react';
 import api from '../utils/api';
+import setAuthToken from '../utils/setAuthToken';
 
 export const AuthContext = createContext();
 
@@ -9,14 +10,8 @@ export const AuthContextProvider = (props) => {
   const login = async (cred) => {
     try {
       const response = await api.post('/auth/', cred);
-
       localStorage.setItem('token', response.data.token);
-
-      if (localStorage.token) {
-        api.defaults.headers.common['x-auth-token'] = localStorage.token;
-      } else {
-        delete api.defaults.headers.common['x-auth-token'];
-      }
+      setAuthToken(localStorage.token);
       setIsAuthenticated(true);
     } catch (err) {
       console.error(err);
