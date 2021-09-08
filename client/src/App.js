@@ -16,7 +16,7 @@ const App = () => {
         <Navbar />
         {/* <Search /> */}
         <Switch>
-          <Route path='/' component={Homepage} />
+          <Route exact path='/' component={Homepage} />
           <Route path='/search/:query' component={SearchResult} />
           <Route
             path='/transaction/company/:ticker'
