@@ -9,6 +9,7 @@ import TransactionPerson from './pages/TransactionPerson';
 import Login from './pages/Login';
 import Homepage from './pages/Homepage';
 import { AuthContextProvider } from './context/AuthContext';
+import Register from './pages/Register';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
             component={TransactionPerson}
           />
           <Route path='/login' component={Login} />
+          <Route path='/register' component={Register} />
         </Switch>
       </Router>
     </AuthContextProvider>
