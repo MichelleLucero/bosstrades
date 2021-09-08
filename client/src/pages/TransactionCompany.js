@@ -36,46 +36,13 @@ const TransactionCompany = () => {
     getTransactions();
   }, [ticker]);
 
-  // return (
-  //   <div>
-  //     <Search />
-  //     <div>
-  //       <h1>Transactions</h1>
-  //       <p>{ticker}</p>
-  //       <p>{transactions.company.name}</p>
-  //       {transactions.trans &&
-  //         transactions.trans.map((tran) => {
-  //           const {
-  //             trans_uid,
-  //             title,
-  //             date_of_trans,
-  //             transactions_code,
-  //             amount,
-  //             adq_or_disp,
-  //             price,
-  //             shares_owned_after_trans,
-  //             direct_or_indirect_ownership,
-  //             // person_uid,
-  //           } = tran;
-  //           return (
-  //             <div key={trans_uid}>
-  //               <p>{title}</p>
-  //               <p>{date_of_trans}</p>
-  //               <p>{transactions_code}</p>
-  //               <p>{amount}</p>
-  //               <p>{adq_or_disp}</p>
-  //               <p>{price}</p>
-  //               <p>{shares_owned_after_trans}</p>
-  //               <p>{direct_or_indirect_ownership}</p>
-  //             </div>
-  //           );
-  //         })}
-  //     </div>
-  //   </div>
-  // );
   return (
     <div>
       <Search />
+      <h1>Transactions</h1>
+      <p>
+        {ticker} | {transactions.company.name}
+      </p>
       <TableContainer component={Paper}>
         <Table className={classes.table} aria-label='simple table'>
           <TableHead>
