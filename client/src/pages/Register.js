@@ -44,7 +44,7 @@ const Register = () => {
     email: '',
     password: '',
   });
-  const { isAuthenticated, login } = useContext(AuthContext);
+  const { isAuthenticated, register } = useContext(AuthContext);
 
   const onChange = (e) => setCred({ ...cred, [e.target.name]: e.target.value });
 
@@ -56,10 +56,16 @@ const Register = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (cred.email === '' || cred.password === '') {
+    const { first_name, last_name, email, password } = cred;
+    if (
+      first_name === '' ||
+      last_name === '' ||
+      email === '' ||
+      password === ''
+    ) {
       console.error('please fill in all fields');
     } else {
-      login(cred);
+      register(cred);
     }
   };
 
