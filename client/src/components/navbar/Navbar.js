@@ -28,6 +28,9 @@ const Navbar = () => {
           <Typography variant='h6' className={classes.title}>
             BossTrades
           </Typography>
+          <Link className={classes.attrLinks} to='/register'>
+            <Button color='inherit'>Register</Button>
+          </Link>
           <Link className={classes.attrLinks} to='/login'>
             <Button color='inherit'>Login</Button>
           </Link>
