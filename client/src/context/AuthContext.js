@@ -6,20 +6,32 @@ export const AuthContext = createContext();
 
 export const AuthContextProvider = (props) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const loadUser = (token) => {
+    localStorage.setItem('token', token);
+    setAuthToken(localStorage.token);
+    setIsAuthenticated(true);
+  };
 
   const login = async (cred) => {
     try {
       const response = await api.post('/auth/', cred);
-      localStorage.setItem('token', response.data.token);
-      setAuthToken(localStorage.token);
-      setIsAuthenticated(true);
+      loadUser(response.data.token);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const register = async (cred) => {
+    try {
+      const response = await api.post('/member/', cred);
+      loadUser(response.data.token);
     } catch (err) {
       console.error(err);
     }
   };
   return (
     <AuthContext.Provider
-      value={{ isAuthenticated, setIsAuthenticated, login }}
+      value={{ isAuthenticated, setIsAuthenticated, login, register }}
     >
       {props.children}
     </AuthContext.Provider>

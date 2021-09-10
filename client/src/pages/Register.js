@@ -36,11 +36,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Login = () => {
+const Register = () => {
   const classes = useStyles();
   const history = useHistory();
-  const [cred, setCred] = useState({ email: '', password: '' });
-  const { isAuthenticated, login } = useContext(AuthContext);
+  const [cred, setCred] = useState({
+    first_name: '',
+    last_name: '',
+    email: '',
+    password: '',
+  });
+  const { isAuthenticated, register } = useContext(AuthContext);
 
   const onChange = (e) => setCred({ ...cred, [e.target.name]: e.target.value });
 
@@ -52,10 +57,16 @@ const Login = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (cred.email === '' || cred.password === '') {
+    const { first_name, last_name, email, password } = cred;
+    if (
+      first_name === '' ||
+      last_name === '' ||
+      email === '' ||
+      password === ''
+    ) {
       console.error('please fill in all fields');
     } else {
-      login(cred);
+      register(cred);
     }
   };
 
@@ -67,9 +78,32 @@ const Login = () => {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component='h1' variant='h5'>
-          Sign in
+          Register
         </Typography>
         <form onSubmit={onSubmit} className={classes.form} noValidate>
+          <TextField
+            variant='outlined'
+            margin='normal'
+            required
+            fullWidth
+            id='firstName'
+            label='First Name'
+            name='first_name'
+            autoComplete='given-name'
+            onChange={onChange}
+            autoFocus
+          />
+          <TextField
+            variant='outlined'
+            margin='normal'
+            required
+            fullWidth
+            id='lastName'
+            label='Last Name'
+            name='last_name'
+            autoComplete='family-name'
+            onChange={onChange}
+          />
           <TextField
             variant='outlined'
             margin='normal'
@@ -80,7 +114,6 @@ const Login = () => {
             name='email'
             autoComplete='email'
             onChange={onChange}
-            autoFocus
           />
           <TextField
             variant='outlined'
@@ -105,16 +138,11 @@ const Login = () => {
             color='primary'
             className={classes.submit}
           >
-            Sign In
+            Register
           </Button>
           <Grid container>
-            <Grid item xs>
-              <Link href='#' variant='body2'>
-                Forgot password?
-              </Link>
-            </Grid>
             <Grid item>
-              <Link to='/register'>Don't have an account? Sign Up</Link>
+              <Link to='/login'>Have an account? Login</Link>
             </Grid>
           </Grid>
         </form>
@@ -124,4 +152,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
