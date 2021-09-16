@@ -292,6 +292,109 @@ app.get('/api/member/', auth, async (req, res) => {
   }
 });
 
+// insert company to member
+app.post('/api/member/company', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const { ticker } = req.body;
+    const result = await db.query(
+      'INSERT INTO member_company(member_uid, ticker) VALUES($1, $2) returning *',
+      [id, ticker]
+    );
+    res.json(result.rows[0]);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// get all companies from member
+app.get('/api/member/company', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const companies = await db.query(
+      'SELECT * FROM member_company WHERE member_uid = $1',
+      [id]
+    );
+    res.json(companies.rows[0]);
+    // res.json({ id });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// delete company from member
+app.delete('/api/member/company', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const { ticker } = req.body;
+
+    const company = await db.query(
+      'DELETE FROM member_company WHERE member_uid = $1 AND ticker = $2',
+      [id, ticker]
+    );
+
+    res.status(200).json({
+      status: 'success',
+    });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// insert person to members
+app.post('/api/member/person', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const { person_uid } = req.body;
+    const result = await db.query(
+      'INSERT INTO member_person(member_uid, person_uid) VALUES($1, $2) returning *',
+      [id, person_uid]
+    );
+    res.json(result.rows[0]);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// get all person from member
+app.get('/api/member/person', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const persons = await db.query(
+      'SELECT * FROM member_person WHERE member_uid = $1',
+      [id]
+    );
+    res.json(persons.rows[0]);
+    // res.json({ id });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// delete person from member
+app.delete('/api/member/person', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const { person_uid } = req.body;
+    const person = await db.query(
+      'DELETE FROM member_person WHERE member_uid = $1 and person_uid = $2',
+      [id, person_uid]
+    );
+
+    res.status(200).json({
+      status: 'success',
+    });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
 app.listen(5000, () => {
   console.log('server has started on port 5000');
 });
