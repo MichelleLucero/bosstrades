@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Search from '../components/search/Search';
 import api from '../utils/api';
+import Button from '@material-ui/core/Button';
 
 const SearchResult = () => {
   // useParams gets it from the link
@@ -20,6 +21,24 @@ const SearchResult = () => {
     getSearchResult();
   }, [query]);
 
+  const addCompany = async (ticker) => {
+    try {
+      const response = await api.post('/member/company/', { ticker });
+      console.log(response);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const addPerson = async (person_uid) => {
+    try {
+      const response = await api.post('/member/person/', { person_uid });
+      console.log(response);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   return (
     <div>
       <Search />
@@ -32,6 +51,15 @@ const SearchResult = () => {
               <div key={ticker}>
                 <p>{ticker}</p>
                 <p>{company}</p>
+                <Button
+                  type='submit'
+                  fullWidth
+                  variant='contained'
+                  color='primary'
+                  onClick={() => addCompany(ticker)}
+                >
+                  Follow
+                </Button>
               </div>
             );
           })}
@@ -44,6 +72,15 @@ const SearchResult = () => {
             return (
               <div key={person_uid}>
                 <p>{name}</p>
+                <Button
+                  type='submit'
+                  fullWidth
+                  variant='contained'
+                  color='primary'
+                  onClick={() => addPerson(person_uid)}
+                >
+                  Follow
+                </Button>
               </div>
             );
           })}
