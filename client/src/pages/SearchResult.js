@@ -30,6 +30,15 @@ const SearchResult = () => {
     }
   };
 
+  const addPerson = async (person_uid) => {
+    try {
+      const response = await api.post('/member/person/', { person_uid });
+      console.log(response);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   return (
     <div>
       <Search />
@@ -68,6 +77,7 @@ const SearchResult = () => {
                   fullWidth
                   variant='contained'
                   color='primary'
+                  onClick={() => addPerson(person_uid)}
                 >
                   Follow
                 </Button>
