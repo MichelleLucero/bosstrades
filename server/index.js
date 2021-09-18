@@ -316,7 +316,7 @@ app.get('/api/member/company', auth, async (req, res) => {
       'SELECT * FROM member_company WHERE member_uid = $1',
       [id]
     );
-    res.json(companies.rows[0]);
+    res.json(companies.rows);
     // res.json({ id });
   } catch (err) {
     console.error(err.message);
@@ -368,7 +368,7 @@ app.get('/api/member/person', auth, async (req, res) => {
       'SELECT * FROM member_person WHERE member_uid = $1',
       [id]
     );
-    res.json(persons.rows[0]);
+    res.json(persons.rows);
     // res.json({ id });
   } catch (err) {
     console.error(err.message);
