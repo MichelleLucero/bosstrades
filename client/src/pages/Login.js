@@ -48,13 +48,14 @@ const Login = () => {
     if (isAuthenticated) {
       history.push('/');
     }
-  }, [isAuthenticated]);
+  }, [history, isAuthenticated]);
 
   const onSubmit = (e) => {
     e.preventDefault();
     if (cred.email === '' || cred.password === '') {
       console.error('please fill in all fields');
     } else {
+      console.log('hello');
       login(cred);
     }
   };
@@ -109,7 +110,7 @@ const Login = () => {
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link href='#' variant='body2'>
+              <Link to='#' variant='body2'>
                 Forgot password?
               </Link>
             </Grid>

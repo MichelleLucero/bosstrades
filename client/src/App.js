@@ -17,7 +17,6 @@ const App = () => {
     <AuthContextProvider>
       <Router>
         <Navbar />
-        {/* <Search /> */}
         <Switch>
           <Route exact path='/' component={Homepage} />
           <Route path='/search/:query' component={SearchResult} />
