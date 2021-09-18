@@ -10,13 +10,13 @@ import Login from './pages/Login';
 import Homepage from './pages/Homepage';
 import { AuthContextProvider } from './context/AuthContext';
 import Register from './pages/Register';
+import Profile from './pages/Profile';
 
 const App = () => {
   return (
     <AuthContextProvider>
       <Router>
         <Navbar />
-        {/* <Search /> */}
         <Switch>
           <Route exact path='/' component={Homepage} />
           <Route path='/search/:query' component={SearchResult} />
@@ -30,6 +30,7 @@ const App = () => {
           />
           <Route path='/login' component={Login} />
           <Route path='/register' component={Register} />
+          <Route path='/profile' component={Profile} />
         </Switch>
       </Router>
     </AuthContextProvider>

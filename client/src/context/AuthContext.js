@@ -6,10 +6,30 @@ export const AuthContext = createContext();
 
 export const AuthContextProvider = (props) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const loadUser = (token) => {
+
+  const loadUser = async (token) => {
+    if (token === undefined && localStorage.token !== undefined) {
+      token = localStorage.token;
+    }
+
     localStorage.setItem('token', token);
     setAuthToken(localStorage.token);
     setIsAuthenticated(true);
+
+    // allows to catch 400 errors
+    api.get('/member/').catch((err) => {
+      console.error(err);
+      logout();
+    });
+
+    // try {
+    //   const response = api.get('/member/');
+    //   console.log(response);
+    //   setIsAuthenticated(true);
+    // } catch (err) {
+    //   console.error(err);
+    //   logout();
+    // }
   };
 
   const login = async (cred) => {
@@ -29,9 +49,22 @@ export const AuthContextProvider = (props) => {
       console.error(err);
     }
   };
+
+  const logout = () => {
+    setIsAuthenticated(false);
+    localStorage.removeItem('token');
+  };
+
   return (
     <AuthContext.Provider
-      value={{ isAuthenticated, setIsAuthenticated, login, register }}
+      value={{
+        isAuthenticated,
+        // setIsAuthenticated,
+        login,
+        register,
+        loadUser,
+        logout,
+      }}
     >
       {props.children}
     </AuthContext.Provider>
