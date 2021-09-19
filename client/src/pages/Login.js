@@ -55,7 +55,7 @@ const Login = () => {
     if (cred.email === '' || cred.password === '') {
       console.error('please fill in all fields');
     } else {
-      console.log('hello');
+      console.log('logout sumbit');
       login(cred);
     }
   };
