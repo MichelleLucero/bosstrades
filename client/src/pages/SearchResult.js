@@ -21,7 +21,7 @@ const SearchResult = () => {
     getSearchResult();
   }, [query]);
 
-  const addCompany = async (ticker) => {
+  const followCompany = async (ticker) => {
     try {
       const response = await api.post('/member/company/', { ticker });
       console.log(response);
@@ -30,7 +30,7 @@ const SearchResult = () => {
     }
   };
 
-  const addPerson = async (person_uid) => {
+  const followPerson = async (person_uid) => {
     try {
       const response = await api.post('/member/person/', { person_uid });
       console.log(response);
@@ -56,7 +56,7 @@ const SearchResult = () => {
                   fullWidth
                   variant='contained'
                   color='primary'
-                  onClick={() => addCompany(ticker)}
+                  onClick={() => followCompany(ticker)}
                 >
                   Follow
                 </Button>
@@ -77,7 +77,7 @@ const SearchResult = () => {
                   fullWidth
                   variant='contained'
                   color='primary'
-                  onClick={() => addPerson(person_uid)}
+                  onClick={() => followPerson(person_uid)}
                 >
                   Follow
                 </Button>
