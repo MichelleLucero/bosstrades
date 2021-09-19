@@ -53,7 +53,7 @@ const Register = () => {
     if (isAuthenticated) {
       history.push('/');
     }
-  }, [isAuthenticated]);
+  }, [history, isAuthenticated]);
 
   const onSubmit = (e) => {
     e.preventDefault();

@@ -316,7 +316,7 @@ app.get('/api/member/company', auth, async (req, res) => {
       'SELECT * FROM member_company WHERE member_uid = $1',
       [id]
     );
-    res.json(companies.rows[0]);
+    res.json(companies.rows);
     // res.json({ id });
   } catch (err) {
     console.error(err.message);
@@ -334,7 +334,11 @@ app.delete('/api/member/company', auth, async (req, res) => {
       'DELETE FROM member_company WHERE member_uid = $1 AND ticker = $2',
       [id, ticker]
     );
-
+    console.log(company);
+    if (company.rowCount === 0) {
+      console.error('Nothing deleted');
+      return res.status(500).send('Server Error');
+    }
     res.status(200).json({
       status: 'success',
     });
@@ -365,10 +369,10 @@ app.get('/api/member/person', auth, async (req, res) => {
   try {
     const { id } = req.member;
     const persons = await db.query(
-      'SELECT * FROM member_person WHERE member_uid = $1',
+      'SELECT * FROM member_person AS mp JOIN person AS p ON mp.person_uid = p.person_uid WHERE member_uid = $1',
       [id]
     );
-    res.json(persons.rows[0]);
+    res.json(persons.rows);
     // res.json({ id });
   } catch (err) {
     console.error(err.message);
