@@ -334,7 +334,11 @@ app.delete('/api/member/company', auth, async (req, res) => {
       'DELETE FROM member_company WHERE member_uid = $1 AND ticker = $2',
       [id, ticker]
     );
-
+    console.log(company);
+    if (company.rowCount === 0) {
+      console.error('Nothing deleted');
+      res.status(500).send('Server Error');
+    }
     res.status(200).json({
       status: 'success',
     });
