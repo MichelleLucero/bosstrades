@@ -337,7 +337,7 @@ app.delete('/api/member/company', auth, async (req, res) => {
     console.log(company);
     if (company.rowCount === 0) {
       console.error('Nothing deleted');
-      res.status(500).send('Server Error');
+      return res.status(500).send('Server Error');
     }
     res.status(200).json({
       status: 'success',
