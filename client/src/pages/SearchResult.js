@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Search from '../components/search/Search';
 import api from '../utils/api';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 const SearchResult = () => {
   // useParams gets it from the link
@@ -49,8 +50,10 @@ const SearchResult = () => {
             const { ticker, company } = result;
             return (
               <div key={ticker}>
-                <p>{ticker}</p>
-                <p>{company}</p>
+                <Link to={'/transaction/company/' + ticker}>
+                  <p>{ticker}</p>
+                  <p>{company}</p>
+                </Link>
                 <Button
                   type='submit'
                   fullWidth
@@ -71,7 +74,9 @@ const SearchResult = () => {
             const { person_uid, name } = result;
             return (
               <div key={person_uid}>
-                <p>{name}</p>
+                <Link to={'/transaction/person/' + person_uid}>
+                  <p>{name}</p>
+                </Link>
                 <Button
                   type='submit'
                   fullWidth
