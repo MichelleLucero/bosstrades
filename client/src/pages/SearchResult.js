@@ -74,7 +74,9 @@ const SearchResult = () => {
             const { person_uid, name } = result;
             return (
               <div key={person_uid}>
-                <p>{name}</p>
+                <Link to={'/transaction/person/' + person_uid}>
+                  <p>{name}</p>
+                </Link>
                 <Button
                   type='submit'
                   fullWidth
