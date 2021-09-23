@@ -1,15 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Search from '../components/search/Search';
 import api from '../utils/api';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
+import { useHistory } from 'react-router-dom';
 
 const SearchResult = () => {
   // useParams gets it from the link
   const { query } = useParams();
   //
   const [results, setResults] = useState({ persons: [], companies: [] });
+
+  const { isAuthenticated } = useContext(AuthContext);
+  const history = useHistory();
 
   useEffect(() => {
     const getSearchResult = async () => {
@@ -23,6 +28,7 @@ const SearchResult = () => {
   }, [query]);
 
   const followCompany = async (ticker) => {
+    if (!isAuthenticated) history.push('/login');
     try {
       const response = await api.post('/member/company/', { ticker });
       console.log(response);
@@ -32,6 +38,7 @@ const SearchResult = () => {
   };
 
   const followPerson = async (person_uid) => {
+    if (!isAuthenticated) history.push('/login');
     try {
       const response = await api.post('/member/person/', { person_uid });
       console.log(response);
