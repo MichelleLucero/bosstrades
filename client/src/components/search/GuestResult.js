@@ -1,8 +1,21 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import api from '../../utils/api';
 
-const GuestResult = ({ results }) => {
+const GuestResult = ({ results, setResults, query }) => {
+  useEffect(() => {
+    const getSearchResult = async () => {
+      try {
+        const response = await api.get(`/search/${query}`);
+        setResults(response.data);
+
+        // console.log(results);
+      } catch (err) {}
+    };
+    getSearchResult();
+  }, [query]);
+
   return (
     <div>
       <div>
