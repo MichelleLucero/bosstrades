@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 
-const GuestResult = ({ results, followCompany, followPerson }) => {
+const GuestResult = ({ results }) => {
   return (
     <div>
       <div>
@@ -16,15 +16,6 @@ const GuestResult = ({ results, followCompany, followPerson }) => {
                   <p>{ticker}</p>
                   <p>{company}</p>
                 </Link>
-                <Button
-                  type='submit'
-                  fullWidth
-                  variant='contained'
-                  color='primary'
-                  onClick={() => followCompany(ticker)}
-                >
-                  Follow
-                </Button>
               </div>
             );
           })}
@@ -39,15 +30,6 @@ const GuestResult = ({ results, followCompany, followPerson }) => {
                 <Link to={'/transaction/person/' + person_uid}>
                   <p>{name}</p>
                 </Link>
-                <Button
-                  type='submit'
-                  fullWidth
-                  variant='contained'
-                  color='primary'
-                  onClick={() => followPerson(person_uid)}
-                >
-                  Follow
-                </Button>
               </div>
             );
           })}
