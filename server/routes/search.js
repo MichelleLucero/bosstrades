@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
+const auth = require('../middleware/auth');
 
 // Return companies and person, ignore later if needed
 router.post('/', async (req, res) => {
@@ -14,6 +15,36 @@ router.post('/', async (req, res) => {
     // Company query
     const company_result = await db.query(
       `SELECT * FROM company WHERE ticker ILIKE '${search}%'`
+    );
+
+    res
+      .status(200)
+      .json({ persons: person_result.rows, companies: company_result.rows });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
+// returns if member follows any of the search results
+router.get('/following/:search', auth, async (req, res) => {
+  try {
+    const { id } = req.member;
+    const { search } = req.params;
+    // Person query
+    const person_result = await db.query(
+      `SELECT person_uid, NAME, CASE WHEN person_uid IN ` +
+        `(SELECT person_uid FROM member_person WHERE ` +
+        `member_uid ='${id}') THEN true ELSE false END AS following ` +
+        `FROM person WHERE NAME ILIKE '${search}%'`
+    );
+
+    // Company query
+    const company_result = await db.query(
+      `SELECT ticker, company, CASE WHEN ticker IN ` +
+        `(SELECT ticker FROM member_company WHERE member_uid = '${id}')` +
+        `then TRUE ELSE FALSE END AS following FROM company WHERE ticker ` +
+        `ILIKE '${search}%'`
     );
 
     res

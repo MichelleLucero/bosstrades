@@ -38,6 +38,7 @@ export const AuthContextProvider = (props) => {
       loadUser(response.data.token);
     } catch (err) {
       console.error(err);
+      logout();
     }
   };
 
