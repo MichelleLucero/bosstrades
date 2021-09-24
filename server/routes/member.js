@@ -5,6 +5,7 @@ const auth = require('../middleware/auth');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
+// code from bosstrades v1
 router.post('/', async (req, res) => {
   const { first_name, last_name, email, password } = req.body;
 
