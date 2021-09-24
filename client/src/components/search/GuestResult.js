@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import api from '../../utils/api';
 
-const GuestResult = ({ results, setResults, query }) => {
+const GuestResult = ({ query }) => {
+  const [companies, setCompanies] = useState();
+  const [persons, setPersons] = useState();
+
   useEffect(() => {
     const getSearchResult = async () => {
       try {
         const response = await api.get(`/search/${query}`);
-        setResults(response.data);
+        setCompanies(response.data.companies);
+        setPersons(response.data.persons);
 
         // console.log(results);
       } catch (err) {}
@@ -20,8 +24,8 @@ const GuestResult = ({ results, setResults, query }) => {
     <div>
       <div>
         <h1>Companies</h1>
-        {results.companies &&
-          results.companies.map((result) => {
+        {companies &&
+          companies.map((result) => {
             const { ticker, company } = result;
             return (
               <div key={ticker}>
@@ -35,8 +39,8 @@ const GuestResult = ({ results, setResults, query }) => {
       </div>
       <div>
         <h1>Person</h1>
-        {results.persons &&
-          results.persons.map((result) => {
+        {persons &&
+          persons.map((result) => {
             const { person_uid, name } = result;
             return (
               <div key={person_uid}>
