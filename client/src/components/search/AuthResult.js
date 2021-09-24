@@ -2,14 +2,18 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 import api from '../../utils/api';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
-export const AuthResult = ({ results, setResults, query }) => {
+export const AuthResult = ({ query }) => {
+  const [companies, setCompanies] = useState();
+  const [persons, setPersons] = useState();
+
   useEffect(() => {
     const getSearchResult = async () => {
       try {
         const response = await api.get(`/search/following/${query}`);
-        setResults(response.data);
+        setCompanies(response.data.companies);
+        setPersons(response.data.persons);
 
         // console.log(results);
       } catch (err) {}
@@ -35,12 +39,39 @@ export const AuthResult = ({ results, setResults, query }) => {
     }
   };
 
+  const unfollowCompany = async (ticker) => {
+    try {
+      const response = await api.delete('/member/company/', {
+        data: { ticker },
+      });
+      console.log(response);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const unfollowPerson = async (person_uid) => {
+    try {
+      const response = await api.delete('/member/person/', {
+        data: { person_uid },
+      });
+      setPersons(
+        persons.filter((person) => {
+          return person.person_uid !== person_uid;
+        })
+      );
+      console.log(response);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   return (
     <div>
       <div>
         <h1>Companies</h1>
-        {results.companies &&
-          results.companies.map((result) => {
+        {companies &&
+          companies.map((result) => {
             const { ticker, company, following } = result;
             return (
               <div key={ticker}>
@@ -54,7 +85,7 @@ export const AuthResult = ({ results, setResults, query }) => {
                     fullWidth
                     variant='contained'
                     color='primary'
-                    onClick={() => followCompany(ticker)}
+                    onClick={() => unfollowCompany(ticker)}
                   >
                     Following
                   </Button>
@@ -75,8 +106,8 @@ export const AuthResult = ({ results, setResults, query }) => {
       </div>
       <div>
         <h1>Person</h1>
-        {results.persons &&
-          results.persons.map((result) => {
+        {persons &&
+          persons.map((result) => {
             const { person_uid, name, following } = result;
             return (
               <div key={person_uid}>
@@ -89,7 +120,7 @@ export const AuthResult = ({ results, setResults, query }) => {
                     fullWidth
                     variant='contained'
                     color='primary'
-                    onClick={() => followPerson(person_uid)}
+                    onClick={() => unfollowPerson(person_uid)}
                   >
                     Following
                   </Button>
