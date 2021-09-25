@@ -24,6 +24,16 @@ export const AuthResult = ({ query }) => {
   const followCompany = async (ticker) => {
     try {
       const response = await api.post('/member/company/', { ticker });
+      setCompanies(
+        companies.map((company) =>
+          company.ticker === ticker
+            ? {
+                ...company,
+                following: true,
+              }
+            : company
+        )
+      );
       console.log(response);
     } catch (err) {
       console.error(err);
@@ -33,6 +43,16 @@ export const AuthResult = ({ query }) => {
   const followPerson = async (person_uid) => {
     try {
       const response = await api.post('/member/person/', { person_uid });
+      setPersons(
+        persons.map((person) =>
+          person.person_uid === person_uid
+            ? {
+                ...person,
+                following: true,
+              }
+            : person
+        )
+      );
       console.log(response);
     } catch (err) {
       console.error(err);
@@ -44,6 +64,16 @@ export const AuthResult = ({ query }) => {
       const response = await api.delete('/member/company/', {
         data: { ticker },
       });
+      setCompanies(
+        companies.map((company) =>
+          company.ticker === ticker
+            ? {
+                ...company,
+                following: false,
+              }
+            : company
+        )
+      );
       console.log(response);
     } catch (err) {
       console.error(err);
@@ -56,9 +86,14 @@ export const AuthResult = ({ query }) => {
         data: { person_uid },
       });
       setPersons(
-        persons.filter((person) => {
-          return person.person_uid !== person_uid;
-        })
+        persons.map((person) =>
+          person.person_uid === person_uid
+            ? {
+                ...person,
+                following: false,
+              }
+            : person
+        )
       );
       console.log(response);
     } catch (err) {
