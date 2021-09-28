@@ -150,11 +150,20 @@ router.post('/company', auth, async (req, res) => {
   try {
     const { id } = req.member;
     const { ticker } = req.body;
-    const result = await db.query(
-      'INSERT INTO member_company(member_uid, ticker) VALUES($1, $2) returning *',
+    const followCheck = await db.query(
+      'SELECT * FROM member_company WHERE member_uid = $1 AND ticker = $2',
       [id, ticker]
     );
-    res.json(result.rows[0]);
+
+    if (followCheck.rowCount === 0) {
+      const result = await db.query(
+        'INSERT INTO member_company(member_uid, ticker) VALUES($1, $2) returning *',
+        [id, ticker]
+      );
+      res.json(result.rows[0]);
+    } else {
+      res.status(500).send('Already Exists');
+    }
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
@@ -206,11 +215,20 @@ router.post('/person', auth, async (req, res) => {
   try {
     const { id } = req.member;
     const { person_uid } = req.body;
-    const result = await db.query(
-      'INSERT INTO member_person(member_uid, person_uid) VALUES($1, $2) returning *',
+    const followCheck = await db.query(
+      'SELECT * FROM member_person WHERE member_uid = $1 AND person_uid = $2',
       [id, person_uid]
     );
-    res.json(result.rows[0]);
+
+    if (followCheck.rowCount === 0) {
+      const result = await db.query(
+        'INSERT INTO member_person(member_uid, person_uid) VALUES($1, $2) returning *',
+        [id, person_uid]
+      );
+      res.json(result.rows[0]);
+    } else {
+      res.status(500).send('Already Exists');
+    }
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
