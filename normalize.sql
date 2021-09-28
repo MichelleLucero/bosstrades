@@ -118,13 +118,15 @@ CREATE TABLE member(
 -- User Company Table
 CREATE TABLE member_company(
   member_uid UUID REFERENCES member(member_uid) NOT NULL,
-  ticker VARCHAR(16) REFERENCES company(ticker) NOT NULL
+  ticker VARCHAR(16) REFERENCES company(ticker) NOT NULL,
+  UNIQUE(member_uid, ticker)
 );
 
 -- User Person Table
 CREATE TABLE member_person(
   member_uid UUID REFERENCES member(member_uid) NOT NULL,
-  person_uid UUID REFERENCES person(person_uid) NOT NULL
+  person_uid UUID REFERENCES person(person_uid) NOT NULL,
+  UNIQUE(member_uid, person_uid)
 );
 
 INSERT INTO member(member_uid, first_name, last_name, email, password) 
