@@ -107,7 +107,7 @@ router.get('/company/:ticker', async (req, res) => {
     const { ticker } = req.params;
 
     const ticker_trans = await db.query(
-      `SELECT * FROM transaction WHERE ticker = '${ticker}'`
+      `SELECT * FROM transaction AS t JOIN person AS p ON t.person_uid = p.person_uid WHERE ticker = '${ticker}'`
     );
 
     const ticker_name = await db.query(
