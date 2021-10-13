@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import Search from '../components/search/Search';
 import api from '../utils/api';
-
+import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -51,6 +51,7 @@ const TransactionPerson = () => {
               <TableCell align='right'>Price</TableCell>
               <TableCell align='right'>Shares owned after trans</TableCell>
               <TableCell align='right'>Direct or indirect ownership</TableCell>
+              <TableCell align='right'>Ticker</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -66,6 +67,7 @@ const TransactionPerson = () => {
                   price,
                   shares_owned_after_trans,
                   direct_or_indirect_ownership,
+                  ticker,
                   // person_uid,
                 } = tran;
 
@@ -84,6 +86,11 @@ const TransactionPerson = () => {
                     </TableCell>
                     <TableCell align='right'>
                       {direct_or_indirect_ownership}
+                    </TableCell>
+                    <TableCell align='right'>
+                      <Link to={'/transaction/company/' + ticker}>
+                        {ticker}
+                      </Link>
                     </TableCell>
                   </TableRow>
                 );
