@@ -1,23 +1,11 @@
 import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
-import Paper from '@material-ui/core/Paper';
-import IconButton from '@material-ui/core/IconButton';
-import SearchIcon from '@material-ui/icons/Search';
+import TextField from '@mui/material/TextField';
+import Paper from '@mui/material/Paper';
+import IconButton from '@mui/material/IconButton';
+import SearchIcon from '@mui/icons-material/Search';
 import { useHistory } from 'react-router-dom';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    padding: '2px 4px',
-    display: 'flex',
-    alignItems: 'center',
-    width: 'fit-content',
-    marginTop: '16px',
-  },
-}));
-
 const Search = () => {
-  const classes = useStyles();
   const history = useHistory();
   const [input, setInput] = useState('');
 
@@ -32,7 +20,7 @@ const Search = () => {
 
   return (
     <div>
-      <Paper className={classes.root}>
+      <Paper>
         <form onSubmit={onSubmit}>
           <TextField
             id='outlined-basic'
