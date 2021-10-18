@@ -21,22 +21,22 @@ const Navbar = () => {
 
   const guestLinks = (
     <Fragment>
-      <Link to='/register'>
-        <Button color='inherit'>Register</Button>
+      <Link to='/register' style={{ textDecoration: 'none' }}>
+        <Button color='secondary'>Register</Button>
       </Link>
-      <Link to='/login'>
-        <Button color='inherit'>Login</Button>
+      <Link to='/login' style={{ textDecoration: 'none' }}>
+        <Button color='secondary'>Login</Button>
       </Link>
     </Fragment>
   );
 
   const authLinks = (
     <Fragment>
-      <Link to='/profile'>
-        <Button color='inherit'>Profile</Button>
+      <Link to='/profile' style={{ textDecoration: 'none' }}>
+        <Button color='secondary'>Profile</Button>
       </Link>
       <div>
-        <Button color='inherit' onClick={onLogout}>
+        <Button color='secondary' onClick={onLogout}>
           Logout
         </Button>
       </div>
@@ -45,9 +45,11 @@ const Navbar = () => {
 
   return (
     <div>
-      <AppBar position='static'>
+      <AppBar position='fixed' elevation={0} sx={{ bgcolor: 'primary.dark' }}>
         <Toolbar>
-          <Typography variant='h6'>🚀 BossTrades</Typography>
+          <Typography variant='h6' sx={{ flexGrow: 1 }}>
+            🚀 BossTrades
+          </Typography>
           {isAuthenticated ? authLinks : guestLinks}
         </Toolbar>
       </AppBar>
