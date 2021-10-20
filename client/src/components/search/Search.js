@@ -3,6 +3,8 @@ import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import { useHistory } from 'react-router-dom';
+import Box from '@mui/material/Box';
+import InputAdornment from '@mui/material/InputAdornment';
 
 const Search = () => {
   const history = useHistory();
@@ -18,17 +20,40 @@ const Search = () => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
+    <Box
+      component='form'
+      onSubmit={onSubmit}
+      sx={{ padding: '75px 210px 0px 210px' }}
+    >
       <TextField
         id='outlined-basic'
-        label='Outlined'
-        variant='outlined'
+        label='Ticker / Person'
+        margin={'normal'}
         onChange={onChange}
+        helperText='Example: AAPL'
+        InputProps={{
+          sx: {
+            bgcolor: 'white',
+          },
+          endAdornment: (
+            <InputAdornment position='end'>
+              {' '}
+              <IconButton type='submit' aria-label='search'>
+                <SearchIcon />
+              </IconButton>
+            </InputAdornment>
+          ),
+        }}
+        FormHelperTextProps={{ sx: { color: 'gray' } }}
+        InputLabelProps={{
+          variant: 'filled',
+        }}
+        fullWidth
       />
-      <IconButton type='submit' aria-label='search'>
+      {/* <IconButton type='submit' aria-label='search'>
         <SearchIcon />
-      </IconButton>
-    </form>
+      </IconButton> */}
+    </Box>
   );
 };
 
