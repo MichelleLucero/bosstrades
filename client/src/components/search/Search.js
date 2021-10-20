@@ -1,23 +1,12 @@
 import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
-import Paper from '@material-ui/core/Paper';
-import IconButton from '@material-ui/core/IconButton';
-import SearchIcon from '@material-ui/icons/Search';
+import TextField from '@mui/material/TextField';
+import IconButton from '@mui/material/IconButton';
+import SearchIcon from '@mui/icons-material/Search';
 import { useHistory } from 'react-router-dom';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    padding: '2px 4px',
-    display: 'flex',
-    alignItems: 'center',
-    width: 'fit-content',
-    marginTop: '16px',
-  },
-}));
+import Box from '@mui/material/Box';
+import InputAdornment from '@mui/material/InputAdornment';
 
 const Search = () => {
-  const classes = useStyles();
   const history = useHistory();
   const [input, setInput] = useState('');
 
@@ -31,21 +20,40 @@ const Search = () => {
   };
 
   return (
-    <div>
-      <Paper className={classes.root}>
-        <form onSubmit={onSubmit}>
-          <TextField
-            id='outlined-basic'
-            label='Outlined'
-            variant='outlined'
-            onChange={onChange}
-          />
-          <IconButton type='submit' aria-label='search'>
-            <SearchIcon />
-          </IconButton>
-        </form>
-      </Paper>
-    </div>
+    <Box
+      component='form'
+      onSubmit={onSubmit}
+      sx={{ padding: '75px 210px 0px 210px' }}
+    >
+      <TextField
+        id='outlined-basic'
+        label='Ticker / Person'
+        margin={'normal'}
+        onChange={onChange}
+        helperText='Example: AAPL'
+        InputProps={{
+          sx: {
+            bgcolor: 'white',
+          },
+          endAdornment: (
+            <InputAdornment position='end'>
+              {' '}
+              <IconButton type='submit' aria-label='search'>
+                <SearchIcon />
+              </IconButton>
+            </InputAdornment>
+          ),
+        }}
+        FormHelperTextProps={{ sx: { color: 'gray' } }}
+        InputLabelProps={{
+          variant: 'filled',
+        }}
+        fullWidth
+      />
+      {/* <IconButton type='submit' aria-label='search'>
+        <SearchIcon />
+      </IconButton> */}
+    </Box>
   );
 };
 

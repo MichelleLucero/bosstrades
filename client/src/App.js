@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import './App.css';
-// import Search from './components/search/Search';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SearchResult from './pages/SearchResult';
 import TransactionCompany from './pages/TransactionCompany';

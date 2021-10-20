@@ -3,23 +3,15 @@ import { useParams } from 'react-router';
 import Search from '../components/search/Search';
 import api from '../utils/api';
 import { Link } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-
-const useStyles = makeStyles({
-  table: {
-    minWidth: 650,
-  },
-});
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 
 const TransactionPerson = () => {
-  const classes = useStyles();
   const { person_id } = useParams();
 
   const [transactions, setTransactions] = useState({ person: {}, trans: [] });
@@ -40,7 +32,7 @@ const TransactionPerson = () => {
       <h1>Transactions</h1>
       <p>{transactions.person.name}</p>
       <TableContainer component={Paper}>
-        <Table className={classes.table} aria-label='simple table'>
+        <Table aria-label='simple table'>
           <TableHead>
             <TableRow>
               <TableCell>Title</TableCell>

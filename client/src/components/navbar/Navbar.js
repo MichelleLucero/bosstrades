@@ -1,28 +1,13 @@
 import React, { Fragment } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import { useContext, useEffect } from 'react';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  title: {
-    flexGrow: 1,
-  },
-  attrLinks: {
-    color: 'white',
-    textDecoration: 'none',
-  },
-}));
-
 const Navbar = () => {
-  const classes = useStyles();
   const { isAuthenticated, logout, loadUser } = useContext(AuthContext);
 
   useEffect(() => {
@@ -36,22 +21,22 @@ const Navbar = () => {
 
   const guestLinks = (
     <Fragment>
-      <Link className={classes.attrLinks} to='/register'>
-        <Button color='inherit'>Register</Button>
+      <Link to='/register' style={{ textDecoration: 'none' }}>
+        <Button color='secondary'>Register</Button>
       </Link>
-      <Link className={classes.attrLinks} to='/login'>
-        <Button color='inherit'>Login</Button>
+      <Link to='/login' style={{ textDecoration: 'none' }}>
+        <Button color='secondary'>Login</Button>
       </Link>
     </Fragment>
   );
 
   const authLinks = (
     <Fragment>
-      <Link className={classes.attrLinks} to='/profile'>
-        <Button color='inherit'>Profile</Button>
+      <Link to='/profile' style={{ textDecoration: 'none' }}>
+        <Button color='secondary'>Profile</Button>
       </Link>
-      <div className={classes.attrLinks}>
-        <Button color='inherit' onClick={onLogout}>
+      <div>
+        <Button color='secondary' onClick={onLogout}>
           Logout
         </Button>
       </div>
@@ -59,11 +44,11 @@ const Navbar = () => {
   );
 
   return (
-    <div className={classes.root}>
-      <AppBar position='static'>
+    <div>
+      <AppBar position='fixed' elevation={0} sx={{ bgcolor: 'primary.dark' }}>
         <Toolbar>
-          <Typography variant='h6' className={classes.title}>
-            BossTrades
+          <Typography variant='h6' sx={{ flexGrow: 1 }}>
+            🚀 BossTrades
           </Typography>
           {isAuthenticated ? authLinks : guestLinks}
         </Toolbar>
