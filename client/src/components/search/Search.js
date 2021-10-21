@@ -23,7 +23,11 @@ const Search = () => {
     <Box
       component='form'
       onSubmit={onSubmit}
-      sx={{ padding: '75px 210px 0px 210px' }}
+      sx={{
+        marginTop: '35px',
+        padding: '75px 210px 45px 210px',
+        bgcolor: 'primary.main',
+      }}
     >
       <TextField
         id='outlined-basic'
