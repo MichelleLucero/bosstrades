@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import api from '../../utils/api';
 import { useEffect, useState } from 'react';
@@ -109,118 +108,114 @@ export const AuthResult = ({ query }) => {
 
   return (
     <Container maxWidth='md'>
-      <div>
-        {/* <h1>Companies</h1> */}
-        <List
-          sx={{
-            // margin: '0px auto',
-            // textAlign: 'center',
-            // maxWidth: '700px',
-            bgcolor: 'white',
-          }}
-        >
-          {companies &&
-            companies.map((result) => {
-              const { ticker, company, following } = result;
-              return (
-                <ListItem
-                  key={ticker}
-                  secondaryAction={
-                    following ? (
-                      <IconButton edge='end'>
-                        <CheckCircleIcon
-                          type='submit'
-                          variant='contained'
-                          color='primary'
-                          onClick={() => unfollowCompany(ticker)}
-                        ></CheckCircleIcon>
-                      </IconButton>
-                    ) : (
-                      <IconButton edge='end'>
-                        <AddCircleOutlineIcon
-                          variant='contained'
-                          color='primary'
-                          onClick={() => followCompany(ticker)}
-                        ></AddCircleOutlineIcon>
-                      </IconButton>
-                    )
-                  }
-                >
-                  <Link to={'/transaction/company/' + ticker}>
-                    <p>{ticker}</p>
-                    <p>{company}</p>
-                  </Link>
-                </ListItem>
-              );
-            })}
-        </List>
-      </div>
-      <div>
-        {/* <h1>Person</h1> */}
-        <List
-          sx={{
-            // margin: '0px auto',
-            // maxWidth: '700px',
-            bgcolor: 'white',
-          }}
-        >
-          {persons &&
-            persons.map((result) => {
-              const { person_uid, name, following } = result;
-              return (
-                <ListItem
-                  key={person_uid}
-                  secondaryAction={
-                    following ? (
-                      <IconButton edge='end'>
-                        <CheckCircleIcon
-                          type='submit'
-                          variant='contained'
-                          color='primary'
-                          onClick={() => unfollowPerson(person_uid)}
-                        ></CheckCircleIcon>
-                      </IconButton>
-                    ) : (
-                      <IconButton edge='end'>
-                        <AddCircleOutlineIcon
-                          type='submit'
-                          variant='contained'
-                          color='primary'
-                          onClick={() => followPerson(person_uid)}
-                        ></AddCircleOutlineIcon>
-                      </IconButton>
-                    )
-                  }
-                >
-                  <Link to={'/transaction/person/' + person_uid}>
-                    <p>{name}</p>
-                  </Link>
-                  {/* {following ? (
-                    <Button
-                      type='submit'
-                      fullWidth
-                      variant='contained'
-                      color='primary'
-                      onClick={() => unfollowPerson(person_uid)}
-                    >
-                      Following
-                    </Button>
+      {/* <h1>Companies</h1> */}
+      <List
+        sx={{
+          // margin: '0px auto',
+          // textAlign: 'center',
+          // maxWidth: '700px',
+          bgcolor: 'white',
+        }}
+      >
+        {companies &&
+          companies.map((result) => {
+            const { ticker, company, following } = result;
+            return (
+              <ListItem
+                key={ticker}
+                secondaryAction={
+                  following ? (
+                    <IconButton edge='end'>
+                      <CheckCircleIcon
+                        type='submit'
+                        variant='contained'
+                        color='primary'
+                        onClick={() => unfollowCompany(ticker)}
+                      ></CheckCircleIcon>
+                    </IconButton>
                   ) : (
-                    <Button
-                      type='submit'
-                      fullWidth
-                      variant='contained'
-                      color='primary'
-                      onClick={() => followPerson(person_uid)}
-                    >
-                      Follow
-                    </Button>
-                  )} */}
-                </ListItem>
-              );
-            })}
-        </List>
-      </div>
+                    <IconButton edge='end'>
+                      <AddCircleOutlineIcon
+                        variant='contained'
+                        color='primary'
+                        onClick={() => followCompany(ticker)}
+                      ></AddCircleOutlineIcon>
+                    </IconButton>
+                  )
+                }
+              >
+                <Link to={'/transaction/company/' + ticker}>
+                  <p>{ticker}</p>
+                  <p>{company}</p>
+                </Link>
+              </ListItem>
+            );
+          })}
+      </List>
+      {/* <h1>Person</h1> */}
+      <List
+        sx={{
+          // margin: '0px auto',
+          // maxWidth: '700px',
+          bgcolor: 'white',
+        }}
+      >
+        {persons &&
+          persons.map((result) => {
+            const { person_uid, name, following } = result;
+            return (
+              <ListItem
+                key={person_uid}
+                secondaryAction={
+                  following ? (
+                    <IconButton edge='end'>
+                      <CheckCircleIcon
+                        type='submit'
+                        variant='contained'
+                        color='primary'
+                        onClick={() => unfollowPerson(person_uid)}
+                      ></CheckCircleIcon>
+                    </IconButton>
+                  ) : (
+                    <IconButton edge='end'>
+                      <AddCircleOutlineIcon
+                        type='submit'
+                        variant='contained'
+                        color='primary'
+                        onClick={() => followPerson(person_uid)}
+                      ></AddCircleOutlineIcon>
+                    </IconButton>
+                  )
+                }
+              >
+                <Link to={'/transaction/person/' + person_uid}>
+                  <p>{name}</p>
+                </Link>
+                {/* {following ? (
+                  <Button
+                    type='submit'
+                    fullWidth
+                    variant='contained'
+                    color='primary'
+                    onClick={() => unfollowPerson(person_uid)}
+                  >
+                    Following
+                  </Button>
+                ) : (
+                  <Button
+                    type='submit'
+                    fullWidth
+                    variant='contained'
+                    color='primary'
+                    onClick={() => followPerson(person_uid)}
+                  >
+                    Follow
+                  </Button>
+                )} */}
+              </ListItem>
+            );
+          })}
+      </List>
     </Container>
   );
 };
