@@ -12,14 +12,14 @@ const SearchResult = () => {
   const { isAuthenticated } = useContext(AuthContext);
 
   return (
-    <div>
+    <>
       <Search />
       {isAuthenticated ? (
         <AuthResult query={query} />
       ) : (
         <GuestResult query={query} />
       )}
-    </div>
+    </>
   );
 };
 
