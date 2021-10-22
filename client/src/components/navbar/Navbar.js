@@ -48,7 +48,9 @@ const Navbar = () => {
       <AppBar position='fixed' elevation={0} sx={{ bgcolor: 'primary.dark' }}>
         <Toolbar>
           <Typography variant='h6' sx={{ flexGrow: 1 }}>
-            🚀 BossTrades
+            <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
+              🚀 BossTrades
+            </Link>
           </Typography>
           {isAuthenticated ? authLinks : guestLinks}
         </Toolbar>
