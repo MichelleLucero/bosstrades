@@ -5,6 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { useHistory } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import InputAdornment from '@mui/material/InputAdornment';
+import { Container } from '@mui/material';
 
 const Search = () => {
   const history = useHistory();
@@ -25,38 +26,37 @@ const Search = () => {
       onSubmit={onSubmit}
       sx={{
         marginTop: '35px',
-        padding: '75px 210px 45px 210px',
+        padding: '75px 0px',
         bgcolor: 'primary.main',
       }}
     >
-      <TextField
-        id='outlined-basic'
-        label='Ticker / Person'
-        margin={'normal'}
-        onChange={onChange}
-        helperText='Example: AAPL'
-        InputProps={{
-          sx: {
-            bgcolor: 'white',
-          },
-          endAdornment: (
-            <InputAdornment position='end'>
-              {' '}
-              <IconButton type='submit' aria-label='search'>
-                <SearchIcon />
-              </IconButton>
-            </InputAdornment>
-          ),
-        }}
-        FormHelperTextProps={{ sx: { color: 'gray' } }}
-        InputLabelProps={{
-          variant: 'filled',
-        }}
-        fullWidth
-      />
-      {/* <IconButton type='submit' aria-label='search'>
-        <SearchIcon />
-      </IconButton> */}
+      <Container>
+        <TextField
+          id='outlined-basic'
+          label='Ticker / Person'
+          margin={'normal'}
+          onChange={onChange}
+          helperText='Example: AAPL'
+          InputProps={{
+            sx: {
+              bgcolor: 'white',
+            },
+            endAdornment: (
+              <InputAdornment position='end'>
+                {' '}
+                <IconButton type='submit' aria-label='search'>
+                  <SearchIcon />
+                </IconButton>
+              </InputAdornment>
+            ),
+          }}
+          FormHelperTextProps={{ sx: { color: 'gray' } }}
+          InputLabelProps={{
+            variant: 'filled',
+          }}
+          fullWidth
+        />
+      </Container>
     </Box>
   );
 };
