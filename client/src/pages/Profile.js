@@ -1,8 +1,12 @@
 import React from 'react';
-import { useEffect, useContext, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import api from '../utils/api';
-import { AuthContext } from '../context/AuthContext';
-import Button from '@mui/material/Button';
+import { Container, IconButton } from '@mui/material';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import Typography from '@mui/material/Typography';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const Profile = () => {
   // const { isAuthenticated } = useContext(AuthContext);
@@ -63,48 +67,62 @@ const Profile = () => {
   };
 
   return (
-    <div>
-      <div>
-        <div>Companies</div>
+    <Container maxWidth='md' sx={{ marginTop: '110px' }}>
+      <List sx={{ bgcolor: 'white' }}>
+        <Typography variant='h4' component='div' align='center'>
+          Companies
+        </Typography>
         {companies &&
           companies.map((company) => {
             return (
-              <div key={company.ticker}>
-                <p>{company.ticker}</p>
-                <Button
-                  type='submit'
-                  fullWidth
-                  variant='contained'
-                  color='primary'
-                  onClick={() => unfollowCompany(company.ticker)}
-                >
-                  Unfollow
-                </Button>
-              </div>
+              <ListItem
+                key={company.ticker}
+                secondaryAction={
+                  <IconButton>
+                    <DeleteIcon
+                      type='submit'
+                      variant='contained'
+                      color='primary'
+                      onClick={() => unfollowCompany(company.ticker)}
+                    ></DeleteIcon>
+                  </IconButton>
+                }
+              >
+                <Link to={'/transaction/company/' + company.ticker}>
+                  {company.ticker}
+                </Link>
+              </ListItem>
             );
           })}
-      </div>
-      <div>
-        <div>Persons</div>
+      </List>
+      <List sx={{ bgcolor: 'white' }}>
+        <Typography variant='h4' component='div' align='center'>
+          Persons
+        </Typography>
         {persons &&
           persons.map((person) => {
             return (
-              <div key={person.person_uid}>
-                <p>{person.name}</p>
-                <Button
-                  type='submit'
-                  fullWidth
-                  variant='contained'
-                  color='primary'
-                  onClick={() => unfollowPerson(person.person_uid)}
-                >
-                  Unfollow
-                </Button>
-              </div>
+              <ListItem
+                key={person.person_uid}
+                secondaryAction={
+                  <IconButton>
+                    <DeleteIcon
+                      type='submit'
+                      variant='contained'
+                      color='primary'
+                      onClick={() => unfollowPerson(person.person_uid)}
+                    ></DeleteIcon>
+                  </IconButton>
+                }
+              >
+                <Link to={'/transaction/person/' + person.person_uid}>
+                  <p>{person.name}</p>
+                </Link>
+              </ListItem>
             );
           })}
-      </div>
-    </div>
+      </List>
+    </Container>
   );
 };
 
