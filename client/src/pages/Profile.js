@@ -67,7 +67,7 @@ const Profile = () => {
   };
 
   return (
-    <Container maxWidth='md' sx={{ marginTop: '110px' }}>
+    <Container maxWidth='md' sx={{ marginTop: '105px' }}>
       <List sx={{ bgcolor: 'white' }}>
         <Typography variant='h4' component='div' align='center'>
           Companies
