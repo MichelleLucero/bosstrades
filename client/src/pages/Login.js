@@ -39,61 +39,82 @@ const Login = () => {
   };
 
   return (
-    <Container component='main' maxWidth='xs'>
-      <CssBaseline />
-      <div>
-        <Avatar>
-          <LockIcon />
-        </Avatar>
-        <Typography component='h1' variant='h5'>
-          Sign in
-        </Typography>
-        <form onSubmit={onSubmit} noValidate>
-          <TextField
-            variant='outlined'
-            margin='normal'
-            required
-            fullWidth
-            id='email'
-            label='Email Address'
-            name='email'
-            autoComplete='email'
-            onChange={onChange}
-            autoFocus
-          />
-          <TextField
-            variant='outlined'
-            margin='normal'
-            required
-            fullWidth
-            name='password'
-            label='Password'
-            type='password'
-            id='password'
-            onChange={onChange}
-            autoComplete='current-password'
-          />
-          <FormControlLabel
-            control={<Checkbox value='remember' color='primary' />}
-            label='Remember me'
-          />
-          <Button type='submit' fullWidth variant='contained' color='primary'>
-            Sign In
-          </Button>
-          <Grid container>
-            <Grid item xs>
-              <Link to='#' variant='body2'>
-                Forgot password?
-              </Link>
+    <Grid
+      container
+      spacing={0}
+      direction='column'
+      alignItems='center'
+      // textAlign='center'
+      justifyContent='center'
+      style={{ minHeight: '100vh' }}
+    >
+      <Container component='main' maxWidth='xs'>
+        <CssBaseline />
+        <Box sx={{ bgcolor: 'white', padding: '4%', borderRadius: '2.5%' }}>
+          <Avatar sx={{ margin: 'auto' }}>
+            <LockIcon />
+          </Avatar>
+          <Typography component='h1' variant='h5' align='center'>
+            Sign in
+          </Typography>
+          <form onSubmit={onSubmit} noValidate>
+            <TextField
+              variant='outlined'
+              margin='normal'
+              required
+              fullWidth
+              id='email'
+              label='Email Address'
+              name='email'
+              autoComplete='email'
+              onChange={onChange}
+              autoFocus
+            />
+            <TextField
+              variant='outlined'
+              margin='normal'
+              required
+              fullWidth
+              name='password'
+              label='Password'
+              type='password'
+              id='password'
+              onChange={onChange}
+              autoComplete='current-password'
+            />
+            <Box sx={{ margin: '4px 0px' }}>
+              <FormControlLabel
+                control={<Checkbox value='remember' color='primary' />}
+                label='Remember me'
+              />
+              <Button
+                type='submit'
+                variant='contained'
+                color='primary'
+                sx={{ float: 'right', marginTop: '4px' }}
+              >
+                Sign In
+              </Button>
+            </Box>
+            <Grid container>
+              <Grid item xs>
+                <Link to='#' variant='body2' style={{ textDecoration: 'none' }}>
+                  Forgot password?
+                </Link>
+              </Grid>
+              {/* <Grid item xs>
+                <Link to='/register'>Don't have an account? Sign Up</Link>
+              </Grid> */}
             </Grid>
-            <Grid item>
-              <Link to='/register'>Don't have an account? Sign Up</Link>
-            </Grid>
-          </Grid>
-        </form>
-      </div>
-      <Box mt={8}>{/* <Copyright /> */}</Box>
-    </Container>
+          </form>
+        </Box>
+      </Container>
+      <Box sx={{ marginTop: '2.2%' }}>
+        <Link to='/register' style={{ textDecoration: 'none' }}>
+          Don't have an account? Sign Up
+        </Link>
+      </Box>
+    </Grid>
   );
 };
 
