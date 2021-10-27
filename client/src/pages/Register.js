@@ -49,78 +49,100 @@ const Register = () => {
   };
 
   return (
-    <Container component='main' maxWidth='xs'>
-      <CssBaseline />
-      <div>
-        <Avatar>
-          <LockIcon />
-        </Avatar>
-        <Typography component='h1' variant='h5'>
-          Register
-        </Typography>
-        <form onSubmit={onSubmit} noValidate>
-          <TextField
-            variant='outlined'
-            margin='normal'
-            required
-            fullWidth
-            id='firstName'
-            label='First Name'
-            name='first_name'
-            autoComplete='given-name'
-            onChange={onChange}
-            autoFocus
-          />
-          <TextField
-            variant='outlined'
-            margin='normal'
-            required
-            fullWidth
-            id='lastName'
-            label='Last Name'
-            name='last_name'
-            autoComplete='family-name'
-            onChange={onChange}
-          />
-          <TextField
-            variant='outlined'
-            margin='normal'
-            required
-            fullWidth
-            id='email'
-            label='Email Address'
-            name='email'
-            autoComplete='email'
-            onChange={onChange}
-          />
-          <TextField
-            variant='outlined'
-            margin='normal'
-            required
-            fullWidth
-            name='password'
-            label='Password'
-            type='password'
-            id='password'
-            onChange={onChange}
-            autoComplete='current-password'
-          />
-          <FormControlLabel
-            control={<Checkbox value='remember' color='primary' />}
-            label='Remember me'
-          />
-          <Button type='submit' fullWidth variant='contained' color='primary'>
-            Register
-          </Button>
-          <Grid container>
-            <Grid item>
-              <Link to='/login'>Have an account? Login</Link>
-            </Grid>
-          </Grid>
-        </form>
-      </div>
-      <Box mt={8}>{/* <Copyright /> */}</Box>
-    </Container>
+    <Grid
+      container
+      spacing={0}
+      direction='column'
+      alignItems='center'
+      // textAlign='center'
+      justifyContent='center'
+      style={{ minHeight: '100vh' }}
+    >
+      <Container component='main' maxWidth='xs'>
+        <CssBaseline />
+        <Box sx={{ bgcolor: 'white', padding: '4%', borderRadius: '2.5%' }}>
+          <Typography component='h1' variant='h5' align='center'>
+            Create Account
+          </Typography>
+          <form onSubmit={onSubmit} noValidate>
+            <Box
+              sx={{
+                display: 'flex',
+                columnGap: '15px',
+              }}
+            >
+              <TextField
+                variant='outlined'
+                margin='normal'
+                required
+                fullWidth
+                id='firstName'
+                label='First Name'
+                name='first_name'
+                autoComplete='given-name'
+                onChange={onChange}
+                autoFocus
+              />
+              <TextField
+                variant='outlined'
+                margin='normal'
+                required
+                fullWidth
+                id='lastName'
+                label='Last Name'
+                name='last_name'
+                autoComplete='family-name'
+                onChange={onChange}
+              />
+            </Box>
+            <TextField
+              variant='outlined'
+              margin='normal'
+              required
+              fullWidth
+              id='email'
+              label='Email Address'
+              name='email'
+              autoComplete='email'
+              onChange={onChange}
+            />
+            <TextField
+              variant='outlined'
+              margin='normal'
+              required
+              fullWidth
+              name='password'
+              label='Password'
+              type='password'
+              id='password'
+              onChange={onChange}
+              autoComplete='current-password'
+            />
+            {/* <FormControlLabel
+              control={<Checkbox value='remember' color='primary' />}
+              label='Remember me'
+            /> */}
+            <Box
+              sx={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                marginTop: '4px',
+              }}
+            >
+              <Button type='submit' variant='contained' color='primary'>
+                Register
+              </Button>
+            </Box>
+          </form>
+        </Box>
+      </Container>
+      <Box sx={{ marginTop: '2.2%' }}>
+        Already have an account?{' '}
+        <Link to='/login' style={{ textDecoration: 'none' }}>
+          Login
+        </Link>
+      </Box>
+    </Grid>
   );
 };
 

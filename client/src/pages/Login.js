@@ -110,8 +110,9 @@ const Login = () => {
         </Box>
       </Container>
       <Box sx={{ marginTop: '2.2%' }}>
+        Don't have an account?{' '}
         <Link to='/register' style={{ textDecoration: 'none' }}>
-          Don't have an account? Sign Up
+          Sign Up
         </Link>
       </Box>
     </Grid>
