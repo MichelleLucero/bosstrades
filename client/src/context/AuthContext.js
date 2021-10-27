@@ -14,13 +14,17 @@ export const AuthContextProvider = (props) => {
 
     localStorage.setItem('token', token);
     setAuthToken(localStorage.token);
-    setIsAuthenticated(true);
 
     // allows to catch 400 errors
-    api.get('/member/').catch((err) => {
-      console.error(err);
-      logout();
-    });
+    api
+      .get('/member/')
+      .then(() => {
+        setIsAuthenticated(true);
+      })
+      .catch((err) => {
+        console.error(err);
+        logout();
+      });
 
     // try {
     //   const response = api.get('/member/');
