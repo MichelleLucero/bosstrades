@@ -1,5 +1,5 @@
 # bosstrades
-Track insider transaction based on your stock or insider trader of interest
+Track insider transactions based on your stock or insider trader of interest
 
 Live on Heroku [here](http://bosstrades.herokuapp.com/)
 ## Local Installation
