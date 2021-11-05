@@ -2,11 +2,11 @@
 Making tracking your 
 
 ## Local Installation
-###Prerequisites
+### Prerequisites
 1. Node.js
 2. PostgreSQL
 
-###Clone Repo
+### Clone Repo
 Run the following in the directory of your choosing:
 ```
 git clone https://github.com/MichelleLucero/bosstrades.git
