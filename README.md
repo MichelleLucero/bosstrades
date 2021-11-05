@@ -1,6 +1,7 @@
 # bosstrades
-Making tracking your 
+Track insider transaction based on your stock or insider trader of interest
 
+Live on Heroku [here](http://bosstrades.herokuapp.com/)
 ## Local Installation
 ### Prerequisites
 1. Node.js
