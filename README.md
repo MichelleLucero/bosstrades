@@ -36,7 +36,7 @@ After running all the commands you can find bosstrades on [http://localhost:3000
 - React.js
 - MUI
 - Context
-### 
+### Backend
 - Node.js
 - Express.js
 - PostgreSQL
