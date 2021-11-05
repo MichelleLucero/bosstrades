@@ -42,5 +42,5 @@ After running all the commands you can find bosstrades on [http://localhost:3000
 - PostgreSQL
 - JWT
 
-## Contributers
+## Contributer
 - [Michelle Lucero](https://github.com/MichelleLucero)
