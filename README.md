@@ -31,11 +31,15 @@ npm start
 After running all the commands you can find bosstrades on [http://localhost:3000](http://localhost:3000)
 
 ## Tech Stack
+### Frontend
 - React.js
+- MUI
+- Context
+### 
 - Node.js
 - Express.js
 - PostgreSQL
-- MUI
+- JWT
 
 ## Contributers
 - [Michelle Lucero](https://github.com/MichelleLucero)
