@@ -56,6 +56,7 @@ Live on Heroku [here](http://bosstrades.herokuapp.com/)
 ## Hurdles
 ### Normalizing unstructured data
 The data I got by scraping SEC Edgar was unstructured. In order to make the data into first normal form, I made sure all my records were unique. After doing this, I realized the table cells under positions contained multiple values. Using Microsoft Excell I was able to separate the values by "&", "AND", and ",". 
+
 ![Untitled](https://i.imgur.com/z6V4pu1.png)
 
 #### First Normal Form
