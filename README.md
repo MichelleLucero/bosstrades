@@ -54,6 +54,15 @@ Live on Heroku [here](http://bosstrades.herokuapp.com/)
 | GET          | api/search/company/:ticker   | Get all transactions of a Company          | Public |
 
 ## Hurdles
+### Normalizing unstructured data
+The data I got by scraping SEC Edgar was unstructured. In order to make the data into first normal form, I made sure all my records were unique. After doing this, I realized the table cells under positions contained multiple values. Using Microsoft Excell I was able to separate the values by "&", "AND", and ",". 
+![Untitled](https://i.imgur.com/z6V4pu1.png)
+
+#### First Normal Form
+- Each table cell shoudl contain a single value
+- Each record should be unique
+#### Second Normal Form
+- Divided my 1NF table into 4 tables: person(PK, name), person_position(FK person_id, position, ticker), company(ticker, comapny)
 
 ## Local Installation
 ### Prerequisites
